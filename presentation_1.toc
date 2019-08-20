@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Multiple Bin vs Single Bin CR Pruned Fit Studies}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Asimov CRs}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{CR Data}{7}{0}{1}
+\beamer@sectionintoc {2}{Multiple Bin vs Single Bin CR Fit Studies}{15}{0}{2}
+\beamer@subsectionintoc {2}{1}{Asimov CRs}{16}{0}{2}
+\beamer@subsectionintoc {2}{2}{CR Data}{20}{0}{2}
