@@ -17,31 +17,11 @@
 
 \documentclass{beamer}
 \setbeamertemplate{caption}{\raggedright\insertcaption\par}
-%\def\labelitemi{--}
-%\def\img#1{%
-%\begin{figure}
-%\includegraphics[width=\linewidth, height=.2\textheight, keepaspectratio]% 
-%{#1} 
-%\caption{Caption of \MakeUppercase #1}
-%\end{figure}}
+
 \usepackage{enumitem}
 \mode<presentation> {
-
-% The Beamer class comes with a number of default slide themes
-% which change the colors and layouts of slides. Below this is a list
-% of all the themes, uncomment each in turn to see what they look like.
-
 \usetheme{boxes}
-
-% As well as themes, the Beamer class has a number of color themes
-% for any slide theme. Uncomment each of these in turn to see how it
-% changes the colors of your current slide theme.
-
-
-%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
 \setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
-
-%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
 
 \usepackage{graphicx} % Allows including images
@@ -72,6 +52,7 @@
 \newcommand{\co}{Colorado__08}
 \newcommand{\ct}{Connecticut__09}
 \newcommand{\de}{Delaware__10}
+\newcommand{\dc}{District of Columbia__11)
 \newcommand{\fl}{Florida__12}
 \newcommand{\ga}{Georgia__13}
 \newcommand{\hi}{Hawaii__15}
@@ -81,6 +62,39 @@
 \newcommand{\ia}{Iowa__19}
 \newcommand{\ks}{Kansas__20}
 \newcommand{\ky}{Kentucky__21}
+\newcommand{\la}{Louisiana__22}
+\newcommand{\me}{Maine__23}
+\newcommand{\md}{Maryland__24}
+\newcommand{\ma}{Massachusetts__25}
+\newcommand{\mi}{Michigan__26}
+\newcommand{\mn}{Minnesota__27}
+\newcommand{\ms}{Mississippi__28}
+\newcommand{\mo}{Missouri__29}
+\newcommand{\mt}{Montana__30}
+\newcommand{\neb}{Nebraska__31}
+\newcommand{\nv}{Nevada__32}
+\newcommand{\nh}{New Hampshire__33}
+\newcommand{\nj}{New Jersey__34}
+\newcommand{\nm}{New Mexico__35}
+\newcommand{\ny}{New York__36}
+\newcommand{\nc}{North Carolina__37}
+\newcommand{\nd}{North Dakota__38}
+\newcommand{\oh}{Ohio__39}
+\newcommand{\ok}{Oklahoma__40}
+\newcommand{\or}{Oregon__41}
+\newcommand{\pa}{Pennsylvania__42}
+\newcommand{\ri}{Rhode Island__44}
+\newcommand{\sc}{South Carolina__45}
+\newcommand{\sd}{South Dakota__46}
+\newcommand{\tn}{Tennessee__47}
+\newcommand{\tx}{Texas__48}
+\newcommand{\ut}{Utah__49}
+\newcommand{\vt}{Vermont__50}
+\newcommand{\va}{Virgina__51}
+\newcommand{\wa}{Washington__53}
+\newcommand{\wv}{West Virgina__54}
+\newcommand{\wi}{Wisconsin__55}
+\newcommand{\wy}{Wyoming__56}
 
 \begin{document}
 
@@ -101,7 +115,7 @@
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
 
-\section{Why a third Stage is needed} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\section{Why a Third Stage is needed} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
 %------------------------------------------------
 \begin{frame}
 \frametitle{Why a Third Stage is Needed}
@@ -120,14 +134,13 @@
 \item modified modelfitter
 \item suppressionpolicies
 \item ensemblegenerator
-
 \end{itemize}
 \end{frame}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{State Comparisons}
 %\subsection{Asimov CRs} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
-
-
 
 \begin{frame}
 \frametitle{Alabama}
@@ -144,6 +157,8 @@
        
 \end{columns}
 \end{frame}
+
+
 
 \begin{frame}
 \frametitle{Alaska}
@@ -243,10 +258,24 @@
 \end{columns}
 \end{frame}
 
+
 \begin{frame}
+\frametitle{District of Columbia}
+    \begin{columns}[t]
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\dc .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\dc .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\dc .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\dc .pdf}   
+        \captionof{figure}{Three Stages}           
+\end{columns}
+\end{frame}
+\begin{frame}
+
 \frametitle{Delaware}
     \begin{columns}[t]
-
      \column{0.5\textwidth}
        \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\de .pdf}
        \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\de .pdf}   
@@ -254,59 +283,474 @@
         \column{0.5\textwidth}
        \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\de .pdf}
        \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\de .pdf}   
+        \captionof{figure}{Three Stages}         
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Florida}
+    \begin{columns}[t]
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\fl .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\fl .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\fl .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\fl .pdf}   
+        \captionof{figure}{Three Stages}          
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Georgia}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ga .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ga .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ga .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ga .pdf}   
         \captionof{figure}{Three Stages}    
        
 \end{columns}
 \end{frame}
 
-\iffalse
-
-
-\newcommand{\de}{Delaware__10}
-\newcommand{\fl}{Florida__12}
-\newcommand{\ga}{Georgia__13}
-\newcommand{\hi}{Hawaii__15}
-\newcommand{\id}{Idaho__16}
-\newcommand{\il}{Illinois__17}
-\newcommand{\indiana}{Indiana__18}
-\newcommand{\ia}{Iowa__19}
-\newcommand{\ks}{Kansas__20}
-\newcommand{\ky}{Kentucky__21}
-
-\fi
-
-
-
-
-
-
-
 \begin{frame}
-\frametitle{Thoughts + Plans}
-
-
-\begin{itemize}[label={-}]
-\item Check counties
-\item Test other tbreak boundaries?
-\end{itemize}
-\end{frame}
-\iffalse
-\begin{frame}
-\frametitle{Alabama}
-       \includegraphics[width=\columnwidth, height=0.9\textheight, keepaspectratio]{\new mle_fit_model__Alabama__01.pdf}
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Alabama}
+\frametitle{Hawaii}
     \begin{columns}[t]
-    \column{0.5\textwidth}
-     \includegraphics[width=\columnwidth, height=0.9\textheight, keepaspectratio]{\old mle_fit_model__Alabama__01.pdf}
-      \captionof{figure}{Two Stages}       
-      \column{0.5\textwidth}
-      \includegraphics[width=\columnwidth, height=0.9\textheight, keepaspectratio]{\new mle_fit_model__Alabama__01.pdf}
-       \captionof{figure}{Three Stages}
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\hi .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\hi .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\hi .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\hi .pdf}   
+        \captionof{figure}{Three Stages}    
+       
 \end{columns}
 \end{frame}
-\fi
+
+\begin{frame}
+\frametitle{Idaho}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\id .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\id .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\id .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\id .pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Illinois}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\il .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\il .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\il .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\il .pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Indiana}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\indiana .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\indiana .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\indiana .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\indiana .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Iowa}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ia .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ia .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ia .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ia .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Kansas}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ks .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ks .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ks .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ks .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Kentucky}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ky .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ky .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ky .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ky .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Louisiana}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\la .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\la .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\la .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\la .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Maine}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\me .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\me .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\me .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\me .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Maryland}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\md .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\md .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\md .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\md .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Massachusetts}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ma .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ma .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ma .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ma .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Michigan}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\mi .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\mi .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\mi .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\mi .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Minnesota}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\mn .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\mn .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\mn .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\mn .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Mississippi}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ms .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ms .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ms .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ms .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Missouri}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\mo .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\mo .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\mo .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\mo .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Montana}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\mt .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\mt .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\mt .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\mt .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Nebraska}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\neb .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\neb .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\neb .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\neb .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Nevada}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\nv .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\nv .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\nv .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\nv .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{New Hampshire}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\nh .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\nh .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\nh .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\nh .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{New Jersey}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\nj .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\nj .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\nj .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\nj .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{New Mexico}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\nm .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\nm .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\nm .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\nm .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{New York}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ny .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ny .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ny .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ny .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{New Carolina}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\nc .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\nc .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\nc .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\nc .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{North Dakota}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\nd .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\nd .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\nd .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\nd .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ohio}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\oh .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\oh .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\oh .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\oh .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Oklahoma}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ok .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ok .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ok .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ok .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Oregon}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\or .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\or .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\or .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\or .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Pennsylvania}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\pa .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\pa .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\pa .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\pa .pdf}   
+        \captionof{figure}{Three Stages}    
+\end{columns}
+\end{frame}
+
+
+
+
+
+
+
 \end{document} 
