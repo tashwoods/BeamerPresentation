@@ -53,9 +53,9 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[$\ell\nu qq$ Fit Studies]{$\ell\nu qq$ Fit Studies} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Third Stage SEIR]{Third Stage SEIR} % The short title appears at the bottom of every slide, the full title is only on the title page
 
-\author[Natasha Woods]{Natasha Woods, Mike Hance, Robert Les, Lailin Xu} % Your name
+\author[Natasha Woods, Brett Boval, Eric Carlson]{Natasha Woods, Brett Boval, Eric Carlson} % Your name
 %\institute[UCSC] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 %{
 %University of California Santa Cruz\\ % Your institution for the title page
@@ -63,6 +63,24 @@
 %\textit{nlwoods@ucsc.edu} % Your email address
 %}
 \date{\today} % Date, can be changed to a custom date
+\newcommand{\old}{api-370-prod/pyseir/state_summaries/reports/}
+\newcommand{\new}{new/pyseir/state_summaries/reports/}
+
+\newcommand{\az}{Arizona__04}
+\newcommand{\ak}{Arkansas__05}
+\newcommand{\ca}{California__06}
+\newcommand{\co}{Colorado__08}
+\newcommand{\ct}{Connecticut__09}
+\newcommand{\de}{Delaware__10}
+\newcommand{\fl}{Florida__12}
+\newcommand{\ga}{Georgia__13}
+\newcommand{\hi}{Hawaii__15}
+\newcommand{\id}{Idaho__16}
+\newcommand{\il}{Illinois__17}
+\newcommand{\indiana}{Indiana__18}
+\newcommand{\ia}{Iowa__19}
+\newcommand{\ks}{Kansas__20}
+\newcommand{\ky}{Kentucky__21}
 
 \begin{document}
 
@@ -83,66 +101,212 @@
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
 
-\section{Multiple Bin vs Single Bin CR Pruned Fit Studies} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\section{Why a third Stage is needed} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
 %------------------------------------------------
-
-\subsection{Asimov CRs} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 \begin{frame}
-\frametitle{Asimov CRs: Jet Systematics}
-       \includegraphics[width=\columnwidth, height=0.9\textheight, keepaspectratio]{test.pdf}
+\frametitle{Why a Third Stage is Needed}
+\begin{itemize}[label={-}]
+\item Current Implementation fits two only two stages (unmitigated growth period and linear ramp to $R_{eff}$)
+\item As areas across the US reopen, this model will fail to fit the increased R values
+
+\end{itemize}
 \end{frame}
 
-
-\subsection{CR Data}
+\section{Implementation} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
 \begin{frame}
-\frametitle{Data CRs: Correlations}
-    \begin{columns}[t]
-    \column{0.5\textwidth}
-     \includegraphics[width=\columnwidth, height=0.9\textheight, keepaspectratio]{test.pdf}
-      \captionof{figure}{MultiBin CRs Pruned}       
-      \column{0.5\textwidth}
-      \includegraphics[width=\columnwidth, height=0.9\textheight, keepaspectratio]{test.pdf}
-       \captionof{figure}{Single Bin CRs Pruned}
-\end{columns}
+\frametitle{Implementation}
+\begin{itemize}[label={-}]
+\item modified modelfitter
+\item suppressionpolicies
+\item ensemblegenerator
+
+\end{itemize}
 \end{frame}
 
+\section{State Comparisons}
+%\subsection{Asimov CRs} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
+
+
 
 \begin{frame}
-\frametitle{Data CRs: Merged Tag PostFits}
+\frametitle{Alabama}
     \begin{columns}[t]
 
-     \column{0.25\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{test.pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{test.pdf}   
-        \captionof{figure}{HP}    
-        \column{0.25\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{test.pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{test.pdf}   
-        \captionof{figure}{LP}    
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__Alabama__01.pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__Alabama__01.pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__Alabama__01.pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__Alabama__01.pdf}   
+        \captionof{figure}{Three Stages}    
        
-       \column{0.25\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{test.pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{test.pdf}   
-        \captionof{figure}{HP}    
-        \column{0.25\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{test.pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{test.pdf}   
-        \captionof{figure}{LP}    
 \end{columns}
 \end{frame}
+
+\begin{frame}
+\frametitle{Alaska}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__Alaska__02.pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__Alaska__02.pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__Alaska__02.pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__Alaska__02.pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Arizona}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\az .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\az .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\az .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\az .pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Arkansas}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ak .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ak .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ak .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ak .pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{California}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ca .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ca .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ca .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ca .pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Colorado}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\co .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\co .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\co .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\co .pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Connecticut}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ct .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ct .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ct .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ct .pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Delaware}
+    \begin{columns}[t]
+
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\de .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\de .pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\de .pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\de .pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+\iffalse
+
+
+\newcommand{\de}{Delaware__10}
+\newcommand{\fl}{Florida__12}
+\newcommand{\ga}{Georgia__13}
+\newcommand{\hi}{Hawaii__15}
+\newcommand{\id}{Idaho__16}
+\newcommand{\il}{Illinois__17}
+\newcommand{\indiana}{Indiana__18}
+\newcommand{\ia}{Iowa__19}
+\newcommand{\ks}{Kansas__20}
+\newcommand{\ky}{Kentucky__21}
+
+\fi
+
+
+
+
+
+
 
 \begin{frame}
 \frametitle{Thoughts + Plans}
 
 
 \begin{itemize}[label={-}]
-\item Pruned Single Bin Fits seem healthy
-\item Check background normalization, Post-Fit Yields, Correlations
-\item Check Ranking Plots (when jobs are complete)
-\item Finish Combining Workspaces and send to Lailin (Limits)
+\item Check counties
+\item Test other tbreak boundaries?
 \end{itemize}
 \end{frame}
 \iffalse
+\begin{frame}
+\frametitle{Alabama}
+       \includegraphics[width=\columnwidth, height=0.9\textheight, keepaspectratio]{\new mle_fit_model__Alabama__01.pdf}
+\end{frame}
 
+
+\begin{frame}
+\frametitle{Alabama}
+    \begin{columns}[t]
+    \column{0.5\textwidth}
+     \includegraphics[width=\columnwidth, height=0.9\textheight, keepaspectratio]{\old mle_fit_model__Alabama__01.pdf}
+      \captionof{figure}{Two Stages}       
+      \column{0.5\textwidth}
+      \includegraphics[width=\columnwidth, height=0.9\textheight, keepaspectratio]{\new mle_fit_model__Alabama__01.pdf}
+       \captionof{figure}{Three Stages}
+\end{columns}
+\end{frame}
 \fi
 \end{document} 
