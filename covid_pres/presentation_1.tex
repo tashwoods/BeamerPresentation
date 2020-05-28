@@ -97,12 +97,33 @@
 \newcommand{\wi}{Wisconsin__55}
 \newcommand{\wy}{Wyoming__56}
 
+\newcommand\makeslide[1]{
+
+\begin{frame}
+\frametitle{ #1 }
+    \begin{columns}[t]
+     \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__#1.pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__#1.pdf}   
+       \captionof{figure}{Two Stages}    
+        \column{0.5\textwidth}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__#1.pdf}
+       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__#1.pdf}   
+        \captionof{figure}{Three Stages}    
+       
+\end{columns}
+\end{frame}
+
+
+}
+
+
 \begin{document}
 
 \begin{frame}
 \titlepage % Print the title page as the first slide
 \end{frame}
-
+\makeslide{West Virginia__54}
 %\begin{frame}
 %\frametitle{Overview} % Table of contents slide, comment this block out to remove it
 %\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
