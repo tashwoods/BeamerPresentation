@@ -43,8 +43,9 @@
 %\textit{nlwoods@ucsc.edu} % Your email address
 %}
 \date{\today} % Date, can be changed to a custom date
-\newcommand{\old}{api-370-prod/pyseir/state_summaries/reports/}
-\newcommand{\new}{new/pyseir/state_summaries/reports/}
+%\newcommand{\old}{api-370-prod/pyseir/state_summaries/reports/}
+\newcommand{\old}{current_two_stage_output/pyseir/state_summaries/reports/}
+\newcommand{\new}{new_shortest_t_delta/pyseir/state_summaries/reports/}
 
 \newcommand{\az}{Arizona__04}
 \newcommand{\ak}{Arkansas__05}
@@ -659,7 +660,7 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{New Carolina}
+\frametitle{North Carolina}
     \begin{columns}[t]
 
      \column{0.5\textwidth}
@@ -744,20 +745,6 @@
         \column{0.5\textwidth}
        \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\pa .pdf}
        \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\pa .pdf}   
-        \captionof{figure}{Three Stages}    
-\end{columns}
-\end{frame}
-
-\begin{frame}
-\frametitle{Rhode Island}
-    \begin{columns}[t]
-     \column{0.5\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__\ri .pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__\ri .pdf}   
-       \captionof{figure}{Two Stages}    
-        \column{0.5\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__\ri .pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__\ri .pdf}   
         \captionof{figure}{Three Stages}    
 \end{columns}
 \end{frame}
