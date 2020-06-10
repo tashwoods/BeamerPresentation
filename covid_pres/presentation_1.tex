@@ -1,16 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Beamer Presentation
-% LaTeX Template
-% Version 1.0 (10/11/12)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND THEMES
 %----------------------------------------------------------------------------------------
@@ -35,88 +22,55 @@
 
 \title[Third Stage SEIR]{Third Stage SEIR} % The short title appears at the bottom of every slide, the full title is only on the title page
 
-%\author[Natasha Woods, Brett Boval, Eric Carlson]{Natasha Woods, Brett Boval, Eric Carlson} % Your name
-%\institute[UCSC] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
-%{
-%University of California Santa Cruz\\ % Your institution for the title page
-%\medskip
-%\textit{nlwoods@ucsc.edu} % Your email address
-%}
 \date{\today} % Date, can be changed to a custom date
-%\newcommand{\old}{api-370-prod/pyseir/state_summaries/reports/}
-\newcommand{\old}{current_two_stage_output/myplots/}
-\newcommand{\new}{new_shortest_t_delta/myplots/}
-\newcommand{\az}{Arizona__04}
-\newcommand{\ak}{Arkansas__05}
-\newcommand{\ca}{California__06}
-\newcommand{\co}{Colorado__08}
-\newcommand{\ct}{Connecticut__09}
-\newcommand{\de}{Delaware__10}
-%\newcommand{\dcolumb}{District of Columbia__11)
-\newcommand{\fl}{Florida__12}
-\newcommand{\ga}{Georgia__13}
-\newcommand{\hi}{Hawaii__15}
-\newcommand{\id}{Idaho__16}
-\newcommand{\il}{Illinois__17}
-\newcommand{\indiana}{Indiana__18}
-\newcommand{\ia}{Iowa__19}
-\newcommand{\ks}{Kansas__20}
-\newcommand{\ky}{Kentucky__21}
-\newcommand{\la}{Louisiana__22}
-\newcommand{\me}{Maine__23}
-\newcommand{\md}{Maryland__24}
-\newcommand{\ma}{Massachusetts__25}
-\newcommand{\mi}{Michigan__26}
-\newcommand{\mn}{Minnesota__27}
-\newcommand{\ms}{Mississippi__28}
-\newcommand{\mo}{Missouri__29}
-\newcommand{\mt}{Montana__30}
-\newcommand{\neb}{Nebraska__31}
-\newcommand{\nv}{Nevada__32}
-\newcommand{\nh}{New Hampshire__33}
-\newcommand{\nj}{New Jersey__34}
-\newcommand{\nm}{New Mexico__35}
-\newcommand{\ny}{New York__36}
-\newcommand{\nc}{North Carolina__37}
-\newcommand{\nd}{North Dakota__38}
-\newcommand{\oh}{Ohio__39}
-\newcommand{\ok}{Oklahoma__40}
-\newcommand{\org}{Oregon__41}
-\newcommand{\pa}{Pennsylvania__42}
-\newcommand{\ri}{Rhode Island__44}
-\newcommand{\scal}{South Carolina__45}
-\newcommand{\sd}{South Dakota__46}
-\newcommand{\tn}{Tennessee__47}
-\newcommand{\tx}{Texas__48}
-\newcommand{\ut}{Utah__49}
-\newcommand{\vt}{Vermont__50}
-\newcommand{\va}{Virginia__51}
-\newcommand{\wa}{Washington__53}
-\newcommand{\wv}{West Virginia__54}
-\newcommand{\wi}{Wisconsin__55}
-\newcommand{\wy}{Wyoming__56}
+\newcommand{\latest}{data/api-results-438-no-future-days/pyseir/myplots/}
+%\newcommand{\old}{data/api-results-442-7days-back/pyseir/myplots/}
+\newcommand{\old}{data/api-results-447/pyseir/myplots/}
+\newcommand{\new}{data/api-results-447/pyseir/myplots/}
 
 \newcommand\makeslide[1]{
-\begin{frame}
+\begin{frame}%{#1}
 %\frametitle{ #1 }
     \begin{columns}
-     \column{0.5\textwidth}
+     \column{0.45\textwidth}
      %\centering
-       \includegraphics[width=6cm, height=3.5cm]{\old mle_fit_results__#1.pdf} \\  
-        \includegraphics[width=4.5cm, height=2cm]{\old mle_fit_model__#1.pdf}
-       \captionof{figure}{Two Stages}    
-        \column{0.5\textwidth}
+       \includegraphics[width=6cm, height=3.5cm, clip=true]{\old mle_fit_results__#1.pdf} \\  
+        \includegraphics[width=4.5cm, height=2cm, clip=true]{\old mle_fit_model__#1.pdf}
+       \captionof{figure}{447}    
+        \column{0.45\textwidth}
         %\centering
-       \includegraphics[width=6cm, height=3.5cm]{\new mle_fit_results__#1.pdf}  \\ 
-        \includegraphics[width=4.5cm, height=2cm]{\new mle_fit_model__#1.pdf}
-       \captionof{figure}{Three Stages}    
+       \includegraphics[width=6cm, height=3.5cm, clip=true]{\new mle_fit_results__#1.pdf}  \\ 
+        \includegraphics[width=4.5cm, height=2cm, clip=true]{\new mle_fit_model__#1.pdf}
+       \captionof{figure}{451}    
 \end{columns}
 \end{frame}
 }
 
 
-\begin{document}
+\newcommand\makeslidethree[1]{
+\begin{frame}%{#1}
+%\frametitle{ #1 }
+    \begin{columns}
+     \column{0.33\textwidth}
+     %\centering
+       \includegraphics[width=4cm, height=2.1cm]{\old mle_fit_results__#1.pdf} \\  
+        \includegraphics[width=2.7cm, height=1.2cm]{\old mle_fit_model__#1.pdf}
+       \captionof{figure}{Ramp 2 no Future Days Allowed}    
+        \column{0.33\textwidth}
+        %\centering
+       \includegraphics[width=4cm, height=2.1cm]{\new mle_fit_results__#1.pdf}  \\ 
+        \includegraphics[width=2.7cm, height=1.2cm]{\new mle_fit_model__#1.pdf}
+       \captionof{figure}{Ramp 2 can't go beyond t-7days}   
+        \column{0.33\textwidth} 
+        \includegraphics[width=4cm, height=2.1cm]{\latest mle_fit_results__#1.pdf}  \\ 
+        \includegraphics[width=2.7cm, height=1.2cm]{\latest mle_fit_model__#1.pdf}
+       \captionof{figure}{Ramp 2 can't go beyond t-14days}  
+\end{columns}
+\end{frame}
+}
 
+\begin{document}
+\iffalse
 \begin{frame}
 \titlepage % Print the title page as the first slide
 \end{frame}
@@ -161,14 +115,15 @@
 \item ensemblegenerator
 \end{itemize}
 \end{frame}
-
-
+\fi
+\iffalse
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{State Comparisons}
 % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 \begin{frame}
 \begin{center}
 \frametitle{State Comparisons}
+Time between two ramps [14,~today (heavy penalty for using future days)]
 \end{center}
 \end{frame}
 \makeslide{Alabama__01}
@@ -222,31 +177,14 @@
 \makeslide{West Virginia__54}
 \makeslide{Wisconsin__55}
 \makeslide{Wyoming__56}
-
-\begin{frame}
-\frametitle{Alabama}
-    \begin{columns}[t]
-     \column{0.5\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__Alabama__01.pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__Alabama__01.pdf}   
-       \captionof{figure}{Two Stages}    
-        \column{0.5\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__Alabama__01.pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__Alabama__01.pdf}   
-        \captionof{figure}{Three Stages}       
-\end{columns}
-\end{frame}
-
-
+\fi
+\iffalse
 \section{County Comparisons}
 \begin{frame}
 \begin{center}
 \frametitle{County Comparisons}
 \end{center}
 \end{frame}
-
-
-\makeslide{Alabama__Autauga County__01001}
 \makeslide{Alabama__Baldwin County__01003}
 \makeslide{Alabama__Barbour County__01005}
 \makeslide{Alabama__Bibb County__01007}
@@ -335,6 +273,8 @@
 \makeslide{Arkansas__Union County__05139}
 \makeslide{Arkansas__Washington County__05143}
 \makeslide{Arkansas__Yell County__05149}
+\fi
+\iffalse
 \makeslide{California__Alameda County__06001}
 \makeslide{California__Contra Costa County__06013}
 \makeslide{California__El Dorado County__06017}
@@ -367,9 +307,10 @@
 \makeslide{California__Solano County__06095}
 \makeslide{California__Sonoma County__06097}
 \makeslide{California__Stanislaus County__06099}
-\makeslide{California__Tulare County__06107}
 \makeslide{California__Ventura County__06111}
 \makeslide{California__Yolo County__06113}
+\fi
+\iffalse
 \makeslide{Colorado__Adams County__08001}
 \makeslide{Colorado__Alamosa County__08003}
 \makeslide{Colorado__Arapahoe County__08005}
@@ -805,6 +746,9 @@
 \makeslide{Louisiana__None__22121}
 \makeslide{Louisiana__None__22125}
 \makeslide{Louisiana__None__22127}
+\fi
+\iffalse
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeslide{Maine__Androscoggin County__23001}
 \makeslide{Maine__Cumberland County__23005}
 \makeslide{Maine__Kennebec County__23011}
@@ -1630,7 +1574,9 @@
 \makeslide{Wyoming__Laramie County__56021}
 \makeslide{Wyoming__Natrona County__56025}
 \makeslide{Wyoming__Teton County__56039}
+\fi
 
+\iffalse
 \section{Thoughts and Plans} % Sections can be created in order to organize your presentation into direte blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
 %------------------------------------------------
 \begin{frame}
@@ -1641,5 +1587,5 @@
 
 \end{itemize}
 \end{frame}
-
+\fi
 \end{document} 
