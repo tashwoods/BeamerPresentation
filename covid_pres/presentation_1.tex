@@ -33,7 +33,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Third Stage SEIR]{Third Stage SEIR} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Third Stage SEIR]{Third Stage SEIR Mysteries} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 %\author[Natasha Woods, Brett Boval, Eric Carlson]{Natasha Woods, Brett Boval, Eric Carlson} % Your name
 %\institute[UCSC] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -44,59 +44,64 @@
 %}
 \date{\today} % Date, can be changed to a custom date
 %\newcommand{\old}{api-370-prod/pyseir/state_summaries/reports/}
-\newcommand{\old}{current_two_stage_output/myplots/}
-\newcommand{\new}{new_shortest_t_delta/myplots/}
-\newcommand{\az}{Arizona__04}
-\newcommand{\ak}{Arkansas__05}
-\newcommand{\ca}{California__06}
-\newcommand{\co}{Colorado__08}
-\newcommand{\ct}{Connecticut__09}
-\newcommand{\de}{Delaware__10}
-%\newcommand{\dcolumb}{District of Columbia__11)
-\newcommand{\fl}{Florida__12}
-\newcommand{\ga}{Georgia__13}
-\newcommand{\hi}{Hawaii__15}
-\newcommand{\id}{Idaho__16}
-\newcommand{\il}{Illinois__17}
-\newcommand{\indiana}{Indiana__18}
-\newcommand{\ia}{Iowa__19}
-\newcommand{\ks}{Kansas__20}
-\newcommand{\ky}{Kentucky__21}
-\newcommand{\la}{Louisiana__22}
-\newcommand{\me}{Maine__23}
-\newcommand{\md}{Maryland__24}
-\newcommand{\ma}{Massachusetts__25}
-\newcommand{\mi}{Michigan__26}
-\newcommand{\mn}{Minnesota__27}
-\newcommand{\ms}{Mississippi__28}
-\newcommand{\mo}{Missouri__29}
-\newcommand{\mt}{Montana__30}
-\newcommand{\neb}{Nebraska__31}
-\newcommand{\nv}{Nevada__32}
-\newcommand{\nh}{New Hampshire__33}
-\newcommand{\nj}{New Jersey__34}
-\newcommand{\nm}{New Mexico__35}
-\newcommand{\ny}{New York__36}
-\newcommand{\nc}{North Carolina__37}
-\newcommand{\nd}{North Dakota__38}
-\newcommand{\oh}{Ohio__39}
-\newcommand{\ok}{Oklahoma__40}
-\newcommand{\org}{Oregon__41}
-\newcommand{\pa}{Pennsylvania__42}
-\newcommand{\ri}{Rhode Island__44}
-\newcommand{\scal}{South Carolina__45}
-\newcommand{\sd}{South Dakota__46}
-\newcommand{\tn}{Tennessee__47}
-\newcommand{\tx}{Texas__48}
-\newcommand{\ut}{Utah__49}
-\newcommand{\vt}{Vermont__50}
-\newcommand{\va}{Virginia__51}
-\newcommand{\wa}{Washington__53}
-\newcommand{\wv}{West Virginia__54}
-\newcommand{\wi}{Wisconsin__55}
-\newcommand{\wy}{Wyoming__56}
+\newcommand{\oldestadj}{data/api-results-493/pyseir/myplots/}
+\newcommand{\oldadj}{data/api-results-486/pyseir/myplots/}
+\newcommand{\latestadj}{data/api-results-489/pyseir/myplots/}
+
+
 
 \newcommand\makeslide[1]{
+\begin{frame}%{#1}
+%\frametitle{ #1 }
+
+    \begin{columns}
+    \column{0.05\textwidth}
+    \tiny Adjusted R\\ 
+    \vspace{3cm}
+    \tiny Not-Adjusted R
+     \column{0.33\textwidth}
+       \includegraphics[width=4cm, height=3cm]{\oldestadj mle_fit_results__#1.pdf} \\  
+        \includegraphics[width=4cm, height=3cm]{\oldestadj mle_fit_results__#1.pdf}   
+       \captionof{figure}{June 10}   
+        \column{0.33\textwidth}
+       \includegraphics[width=4cm, height=3cm]{\oldadj mle_fit_results__#1.pdf}  \\ 
+        \includegraphics[width=4cm, height=3cm]{\oldadj mle_fit_results__#1.pdf}  
+
+       \captionof{figure}{June 11}   
+        \column{0.33\textwidth} 
+        \includegraphics[width=4cm, height=3cm]{\latestadj mle_fit_results__#1.pdf}  \\ 
+        \includegraphics[width=4cm, height=3cm]{\latestadj mle_fit_results__#1.pdf}  
+
+       \captionof{figure}{June 12}  
+\end{columns}
+\end{frame}
+}
+
+
+\newcommand\makeslidethree[1]{
+\begin{frame}%{#1}
+%\frametitle{ #1 }
+    \begin{columns}
+     \column{0.33\textwidth}
+     %\centering
+       \includegraphics[width=4cm, height=2.1cm]{\oldest mle_fit_results__#1.pdf} \\  
+        \includegraphics[width=2.7cm, height=1.2cm]{\oldest mle_fit_model__#1.pdf}
+       \captionof{figure}{June 10}    
+        \column{0.33\textwidth}
+        %\centering
+       \includegraphics[width=4cm, height=2.1cm]{\old mle_fit_results__#1.pdf}  \\ 
+        \includegraphics[width=2.7cm, height=1.2cm]{\old mle_fit_model__#1.pdf}
+       \captionof{figure}{June 11}   
+        \column{0.33\textwidth} 
+        \includegraphics[width=4cm, height=2.1cm]{\latest mle_fit_results__#1.pdf}  \\ 
+        \includegraphics[width=2.7cm, height=1.2cm]{\latest mle_fit_model__#1.pdf}
+       \captionof{figure}{June 12}  
+\end{columns}
+\end{frame}
+}
+
+
+\newcommand\makeslidetwo[1]{
 \begin{frame}
 %\frametitle{ #1 }
     \begin{columns}
@@ -104,12 +109,12 @@
      %\centering
        \includegraphics[width=6cm, height=3.5cm]{\old mle_fit_results__#1.pdf} \\  
         \includegraphics[width=4.5cm, height=2cm]{\old mle_fit_model__#1.pdf}
-       \captionof{figure}{Two Stages}    
+       \captionof{figure}{Adjusted epsilons}
         \column{0.5\textwidth}
         %\centering
        \includegraphics[width=6cm, height=3.5cm]{\new mle_fit_results__#1.pdf}  \\ 
         \includegraphics[width=4.5cm, height=2cm]{\new mle_fit_model__#1.pdf}
-       \captionof{figure}{Three Stages}    
+       \captionof{figure}{non-adjusted epsilons}    
 \end{columns}
 \end{frame}
 }
@@ -131,15 +136,16 @@
 %\frametitle{Overview} % Table of contents slide, comment this block out to remove it
 %\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
 \setbeamertemplate{section in toc}{\inserttocsectionnumber.~\inserttocsection}
+\iffalse
 \begin{frame}
 \tableofcontents
 \end{frame}
-
+\fi
 
 %----------------------------------------------------------------------------------------
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
-
+\iffalse
 \section{Why a Third Stage is needed} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
 %------------------------------------------------
 \begin{frame}
@@ -161,7 +167,7 @@
 \item ensemblegenerator
 \end{itemize}
 \end{frame}
-
+\fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{State Comparisons}
@@ -223,20 +229,12 @@
 \makeslide{Wisconsin__55}
 \makeslide{Wyoming__56}
 
-\begin{frame}
-\frametitle{Alabama}
-    \begin{columns}[t]
-     \column{0.5\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_model__Alabama__01.pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\old mle_fit_results__Alabama__01.pdf}   
-       \captionof{figure}{Two Stages}    
-        \column{0.5\textwidth}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_model__Alabama__01.pdf}
-       \includegraphics[width=\columnwidth, height=0.32\textheight, keepaspectratio]{\new mle_fit_results__Alabama__01.pdf}   
-        \captionof{figure}{Three Stages}       
-\end{columns}
-\end{frame}
 
+
+
+
+
+\iffalse
 
 \section{County Comparisons}
 \begin{frame}
@@ -1630,7 +1628,7 @@
 \makeslide{Wyoming__Laramie County__56021}
 \makeslide{Wyoming__Natrona County__56025}
 \makeslide{Wyoming__Teton County__56039}
-
+\fi
 \section{Thoughts and Plans} % Sections can be created in order to organize your presentation into direte blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
 %------------------------------------------------
 \begin{frame}
