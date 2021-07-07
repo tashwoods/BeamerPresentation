@@ -1,0 +1,1384 @@
+\makeslide{Alabama__Autauga County__01001}
+\makeslide{Alabama__Baldwin County__01003}
+\makeslide{Alabama__Barbour County__01005}
+\makeslide{Alabama__Bibb County__01007}
+\makeslide{Alabama__Blount County__01009}
+\makeslide{Alabama__Bullock County__01011}
+\makeslide{Alabama__Butler County__01013}
+\makeslide{Alabama__Calhoun County__01015}
+\makeslide{Alabama__Chambers County__01017}
+\makeslide{Alabama__Chilton County__01021}
+\makeslide{Alabama__Choctaw County__01023}
+\makeslide{Alabama__Clarke County__01025}
+\makeslide{Alabama__Coffee County__01031}
+\makeslide{Alabama__Colbert County__01033}
+\makeslide{Alabama__Covington County__01039}
+\makeslide{Alabama__Crenshaw County__01041}
+\makeslide{Alabama__Cullman County__01043}
+\makeslide{Alabama__Dale County__01045}
+\makeslide{Alabama__Dallas County__01047}
+\makeslide{Alabama__DeKalb County__01049}
+\makeslide{Alabama__Elmore County__01051}
+\makeslide{Alabama__Etowah County__01055}
+\makeslide{Alabama__Franklin County__01059}
+\makeslide{Alabama__Greene County__01063}
+\makeslide{Alabama__Hale County__01065}
+\makeslide{Alabama__Henry County__01067}
+\makeslide{Alabama__Houston County__01069}
+\makeslide{Alabama__Jackson County__01071}
+\makeslide{Alabama__Jefferson County__01073}
+\makeslide{Alabama__Lauderdale County__01077}
+\makeslide{Alabama__Lee County__01081}
+\makeslide{Alabama__Limestone County__01083}
+\makeslide{Alabama__Lowndes County__01085}
+\makeslide{Alabama__Macon County__01087}
+\makeslide{Alabama__Madison County__01089}
+\makeslide{Alabama__Marengo County__01091}
+\makeslide{Alabama__Marion County__01093}
+\makeslide{Alabama__Marshall County__01095}
+\makeslide{Alabama__Mobile County__01097}
+\makeslide{Alabama__Montgomery County__01101}
+\makeslide{Alabama__Morgan County__01103}
+\makeslide{Alabama__Pickens County__01107}
+\makeslide{Alabama__Pike County__01109}
+\makeslide{Alabama__Randolph County__01111}
+\makeslide{Alabama__Russell County__01113}
+\makeslide{Alabama__Shelby County__01117}
+\makeslide{Alabama__St. Clair County__01115}
+\makeslide{Alabama__Sumter County__01119}
+\makeslide{Alabama__Talladega County__01121}
+\makeslide{Alabama__Tallapoosa County__01123}
+\makeslide{Alabama__Tuscaloosa County__01125}
+\makeslide{Alabama__Walker County__01127}
+\makeslide{Alabama__Washington County__01129}
+\makeslide{Alabama__Wilcox County__01131}
+\makeslide{Alabama__Winston County__01133}
+\makeslide{Alaska__None__02020}
+\makeslide{Alaska__None__02090}
+\makeslide{Arizona__Apache County__04001}
+\makeslide{Arizona__Cochise County__04003}
+\makeslide{Arizona__Coconino County__04005}
+\makeslide{Arizona__La Paz County__04012}
+\makeslide{Arizona__Maricopa County__04013}
+\makeslide{Arizona__Mohave County__04015}
+\makeslide{Arizona__Navajo County__04017}
+\makeslide{Arizona__Pima County__04019}
+\makeslide{Arizona__Pinal County__04021}
+\makeslide{Arizona__Santa Cruz County__04023}
+\makeslide{Arizona__Yavapai County__04025}
+\makeslide{Arizona__Yuma County__04027}
+\makeslide{Arkansas__Benton County__05007}
+\makeslide{Arkansas__Cleburne County__05023}
+\makeslide{Arkansas__Craighead County__05031}
+\makeslide{Arkansas__Crittenden County__05035}
+\makeslide{Arkansas__Faulkner County__05045}
+\makeslide{Arkansas__Garland County__05051}
+\makeslide{Arkansas__Greene County__05055}
+\makeslide{Arkansas__Jefferson County__05069}
+\makeslide{Arkansas__Lawrence County__05075}
+\makeslide{Arkansas__Lincoln County__05079}
+\makeslide{Arkansas__Lonoke County__05085}
+\makeslide{Arkansas__Mississippi County__05093}
+\makeslide{Arkansas__Pope County__05115}
+\makeslide{Arkansas__Pulaski County__05119}
+\makeslide{Arkansas__Saline County__05125}
+\makeslide{Arkansas__Sevier County__05133}
+\makeslide{Arkansas__St. Francis County__05123}
+\makeslide{Arkansas__Union County__05139}
+\makeslide{Arkansas__Washington County__05143}
+\makeslide{Arkansas__Yell County__05149}
+\makeslide{California__Alameda County__06001}
+\makeslide{California__Contra Costa County__06013}
+\makeslide{California__El Dorado County__06017}
+\makeslide{California__Fresno County__06019}
+\makeslide{California__Humboldt County__06023}
+\makeslide{California__Imperial County__06025}
+\makeslide{California__Kern County__06029}
+\makeslide{California__Kings County__06031}
+\makeslide{California__Los Angeles County__06037}
+\makeslide{California__Madera County__06039}
+\makeslide{California__Marin County__06041}
+\makeslide{California__Mendocino County__06045}
+\makeslide{California__Merced County__06047}
+\makeslide{California__Monterey County__06053}
+\makeslide{California__Napa County__06055}
+\makeslide{California__Orange County__06059}
+\makeslide{California__Placer County__06061}
+\makeslide{California__Riverside County__06065}
+\makeslide{California__Sacramento County__06067}
+\makeslide{California__San Benito County__06069}
+\makeslide{California__San Bernardino County__06071}
+\makeslide{California__San Diego County__06073}
+\makeslide{California__San Francisco County__06075}
+\makeslide{California__San Joaquin County__06077}
+\makeslide{California__San Luis Obispo County__06079}
+\makeslide{California__San Mateo County__06081}
+\makeslide{California__Santa Barbara County__06083}
+\makeslide{California__Santa Clara County__06085}
+\makeslide{California__Santa Cruz County__06087}
+\makeslide{California__Solano County__06095}
+\makeslide{California__Sonoma County__06097}
+\makeslide{California__Stanislaus County__06099}
+\makeslide{California__Tulare County__06107}
+\makeslide{California__Ventura County__06111}
+\makeslide{California__Yolo County__06113}
+\makeslide{Colorado__Adams County__08001}
+\makeslide{Colorado__Alamosa County__08003}
+\makeslide{Colorado__Arapahoe County__08005}
+\makeslide{Colorado__Boulder County__08013}
+\makeslide{Colorado__Broomfield County__08014}
+\makeslide{Colorado__Chaffee County__08015}
+\makeslide{Colorado__Crowley County__08025}
+\makeslide{Colorado__Delta County__08029}
+\makeslide{Colorado__Denver County__08031}
+\makeslide{Colorado__Douglas County__08035}
+\makeslide{Colorado__Eagle County__08037}
+\makeslide{Colorado__El Paso County__08041}
+\makeslide{Colorado__Garfield County__08045}
+\makeslide{Colorado__Gunnison County__08051}
+\makeslide{Colorado__Jefferson County__08059}
+\makeslide{Colorado__La Plata County__08067}
+\makeslide{Colorado__Larimer County__08069}
+\makeslide{Colorado__Logan County__08075}
+\makeslide{Colorado__Mesa County__08077}
+\makeslide{Colorado__Montrose County__08085}
+\makeslide{Colorado__Morgan County__08087}
+\makeslide{Colorado__Pitkin County__08097}
+\makeslide{Colorado__Pueblo County__08101}
+\makeslide{Colorado__Routt County__08107}
+\makeslide{Colorado__Summit County__08117}
+\makeslide{Colorado__Weld County__08123}
+\makeslide{Connecticut__Fairfield County__09001}
+\makeslide{Connecticut__Hartford County__09003}
+\makeslide{Connecticut__Litchfield County__09005}
+\makeslide{Connecticut__Middlesex County__09007}
+\makeslide{Connecticut__New Haven County__09009}
+\makeslide{Connecticut__New London County__09011}
+\makeslide{Connecticut__Tolland County__09013}
+\makeslide{Connecticut__Windham County__09015}
+\makeslide{Delaware__Kent County__10001}
+\makeslide{Delaware__New Castle County__10003}
+\makeslide{Delaware__Sussex County__10005}
+\makeslide{District of Columbia__None__11001}
+\makeslide{Florida__Alachua County__12001}
+\makeslide{Florida__Bay County__12005}
+\makeslide{Florida__Bradford County__12007}
+\makeslide{Florida__Brevard County__12009}
+\makeslide{Florida__Broward County__12011}
+\makeslide{Florida__Calhoun County__12013}
+\makeslide{Florida__Charlotte County__12015}
+\makeslide{Florida__Citrus County__12017}
+\makeslide{Florida__Clay County__12019}
+\makeslide{Florida__Collier County__12021}
+\makeslide{Florida__Columbia County__12023}
+\makeslide{Florida__DeSoto County__12027}
+\makeslide{Florida__Duval County__12031}
+\makeslide{Florida__Escambia County__12033}
+\makeslide{Florida__Flagler County__12035}
+\makeslide{Florida__Gadsden County__12039}
+\makeslide{Florida__Hamilton County__12047}
+\makeslide{Florida__Hardee County__12049}
+\makeslide{Florida__Hendry County__12051}
+\makeslide{Florida__Hernando County__12053}
+\makeslide{Florida__Highlands County__12055}
+\makeslide{Florida__Hillsborough County__12057}
+\makeslide{Florida__Indian River County__12061}
+\makeslide{Florida__Jackson County__12063}
+\makeslide{Florida__Lake County__12069}
+\makeslide{Florida__Lee County__12071}
+\makeslide{Florida__Leon County__12073}
+\makeslide{Florida__Liberty County__12077}
+\makeslide{Florida__Madison County__12079}
+\makeslide{Florida__Manatee County__12081}
+\makeslide{Florida__Marion County__12083}
+\makeslide{Florida__Martin County__12085}
+\makeslide{Florida__Miami-Dade County__12086}
+\makeslide{Florida__Monroe County__12087}
+\makeslide{Florida__Nassau County__12089}
+\makeslide{Florida__Okaloosa County__12091}
+\makeslide{Florida__Okeechobee County__12093}
+\makeslide{Florida__Orange County__12095}
+\makeslide{Florida__Osceola County__12097}
+\makeslide{Florida__Palm Beach County__12099}
+\makeslide{Florida__Pasco County__12101}
+\makeslide{Florida__Pinellas County__12103}
+\makeslide{Florida__Polk County__12105}
+\makeslide{Florida__Putnam County__12107}
+\makeslide{Florida__Santa Rosa County__12113}
+\makeslide{Florida__Sarasota County__12115}
+\makeslide{Florida__Seminole County__12117}
+\makeslide{Florida__St. Johns County__12109}
+\makeslide{Florida__St. Lucie County__12111}
+\makeslide{Florida__Sumter County__12119}
+\makeslide{Florida__Suwannee County__12121}
+\makeslide{Florida__Volusia County__12127}
+\makeslide{Florida__Walton County__12131}
+\makeslide{Florida__Washington County__12133}
+\makeslide{Georgia__Appling County__13001}
+\makeslide{Georgia__Bacon County__13005}
+\makeslide{Georgia__Baldwin County__13009}
+\makeslide{Georgia__Banks County__13011}
+\makeslide{Georgia__Barrow County__13013}
+\makeslide{Georgia__Bartow County__13015}
+\makeslide{Georgia__Ben Hill County__13017}
+\makeslide{Georgia__Bibb County__13021}
+\makeslide{Georgia__Brooks County__13027}
+\makeslide{Georgia__Bryan County__13029}
+\makeslide{Georgia__Bulloch County__13031}
+\makeslide{Georgia__Burke County__13033}
+\makeslide{Georgia__Butts County__13035}
+\makeslide{Georgia__Calhoun County__13037}
+\makeslide{Georgia__Camden County__13039}
+\makeslide{Georgia__Carroll County__13045}
+\makeslide{Georgia__Catoosa County__13047}
+\makeslide{Georgia__Chatham County__13051}
+\makeslide{Georgia__Cherokee County__13057}
+\makeslide{Georgia__Clarke County__13059}
+\makeslide{Georgia__Clayton County__13063}
+\makeslide{Georgia__Clinch County__13065}
+\makeslide{Georgia__Cobb County__13067}
+\makeslide{Georgia__Coffee County__13069}
+\makeslide{Georgia__Colquitt County__13071}
+\makeslide{Georgia__Columbia County__13073}
+\makeslide{Georgia__Coweta County__13077}
+\makeslide{Georgia__Crisp County__13081}
+\makeslide{Georgia__Dawson County__13085}
+\makeslide{Georgia__DeKalb County__13089}
+\makeslide{Georgia__Decatur County__13087}
+\makeslide{Georgia__Dodge County__13091}
+\makeslide{Georgia__Dooly County__13093}
+\makeslide{Georgia__Dougherty County__13095}
+\makeslide{Georgia__Douglas County__13097}
+\makeslide{Georgia__Early County__13099}
+\makeslide{Georgia__Echols County__13101}
+\makeslide{Georgia__Effingham County__13103}
+\makeslide{Georgia__Elbert County__13105}
+\makeslide{Georgia__Fayette County__13113}
+\makeslide{Georgia__Floyd County__13115}
+\makeslide{Georgia__Forsyth County__13117}
+\makeslide{Georgia__Fulton County__13121}
+\makeslide{Georgia__Gilmer County__13123}
+\makeslide{Georgia__Glynn County__13127}
+\makeslide{Georgia__Gordon County__13129}
+\makeslide{Georgia__Grady County__13131}
+\makeslide{Georgia__Greene County__13133}
+\makeslide{Georgia__Gwinnett County__13135}
+\makeslide{Georgia__Habersham County__13137}
+\makeslide{Georgia__Hall County__13139}
+\makeslide{Georgia__Hancock County__13141}
+\makeslide{Georgia__Harris County__13145}
+\makeslide{Georgia__Henry County__13151}
+\makeslide{Georgia__Houston County__13153}
+\makeslide{Georgia__Jackson County__13157}
+\makeslide{Georgia__Johnson County__13167}
+\makeslide{Georgia__Lamar County__13171}
+\makeslide{Georgia__Laurens County__13175}
+\makeslide{Georgia__Lee County__13177}
+\makeslide{Georgia__Liberty County__13179}
+\makeslide{Georgia__Lowndes County__13185}
+\makeslide{Georgia__Lumpkin County__13187}
+\makeslide{Georgia__Macon County__13193}
+\makeslide{Georgia__Marion County__13197}
+\makeslide{Georgia__McDuffie County__13189}
+\makeslide{Georgia__Meriwether County__13199}
+\makeslide{Georgia__Miller County__13201}
+\makeslide{Georgia__Mitchell County__13205}
+\makeslide{Georgia__Monroe County__13207}
+\makeslide{Georgia__Murray County__13213}
+\makeslide{Georgia__Muscogee County__13215}
+\makeslide{Georgia__Newton County__13217}
+\makeslide{Georgia__Oconee County__13219}
+\makeslide{Georgia__Oglethorpe County__13221}
+\makeslide{Georgia__Paulding County__13223}
+\makeslide{Georgia__Peach County__13225}
+\makeslide{Georgia__Pierce County__13229}
+\makeslide{Georgia__Pike County__13231}
+\makeslide{Georgia__Polk County__13233}
+\makeslide{Georgia__Putnam County__13237}
+\makeslide{Georgia__Randolph County__13243}
+\makeslide{Georgia__Richmond County__13245}
+\makeslide{Georgia__Rockdale County__13247}
+\makeslide{Georgia__Spalding County__13255}
+\makeslide{Georgia__Stephens County__13257}
+\makeslide{Georgia__Sumter County__13261}
+\makeslide{Georgia__Terrell County__13273}
+\makeslide{Georgia__Thomas County__13275}
+\makeslide{Georgia__Tift County__13277}
+\makeslide{Georgia__Toombs County__13279}
+\makeslide{Georgia__Troup County__13285}
+\makeslide{Georgia__Turner County__13287}
+\makeslide{Georgia__Upson County__13293}
+\makeslide{Georgia__Walker County__13295}
+\makeslide{Georgia__Walton County__13297}
+\makeslide{Georgia__Ware County__13299}
+\makeslide{Georgia__Washington County__13303}
+\makeslide{Georgia__White County__13311}
+\makeslide{Georgia__Whitfield County__13313}
+\makeslide{Georgia__Wilcox County__13315}
+\makeslide{Georgia__Wilkinson County__13319}
+\makeslide{Georgia__Worth County__13321}
+\makeslide{Hawaii__Hawaii County__15001}
+\makeslide{Hawaii__Honolulu County__15003}
+\makeslide{Hawaii__Maui County__15009}
+\makeslide{Idaho__Ada County__16001}
+\makeslide{Idaho__Blaine County__16013}
+\makeslide{Idaho__Canyon County__16027}
+\makeslide{Idaho__Jerome County__16053}
+\makeslide{Idaho__Kootenai County__16055}
+\makeslide{Idaho__Nez Perce County__16069}
+\makeslide{Idaho__Twin Falls County__16083}
+\makeslide{Illinois__Boone County__17007}
+\makeslide{Illinois__Cass County__17017}
+\makeslide{Illinois__Champaign County__17019}
+\makeslide{Illinois__Clinton County__17027}
+\makeslide{Illinois__Coles County__17029}
+\makeslide{Illinois__Cook County__17031}
+\makeslide{Illinois__DeKalb County__17037}
+\makeslide{Illinois__DuPage County__17043}
+\makeslide{Illinois__Grundy County__17063}
+\makeslide{Illinois__Henry County__17073}
+\makeslide{Illinois__Iroquois County__17075}
+\makeslide{Illinois__Jackson County__17077}
+\makeslide{Illinois__Jefferson County__17081}
+\makeslide{Illinois__Kane County__17089}
+\makeslide{Illinois__Kankakee County__17091}
+\makeslide{Illinois__Kendall County__17093}
+\makeslide{Illinois__Knox County__17095}
+\makeslide{Illinois__LaSalle County__17099}
+\makeslide{Illinois__Lake County__17097}
+\makeslide{Illinois__Lee County__17103}
+\makeslide{Illinois__Macon County__17115}
+\makeslide{Illinois__Madison County__17119}
+\makeslide{Illinois__McDonough County__17109}
+\makeslide{Illinois__McHenry County__17111}
+\makeslide{Illinois__McLean County__17113}
+\makeslide{Illinois__Monroe County__17133}
+\makeslide{Illinois__Ogle County__17141}
+\makeslide{Illinois__Peoria County__17143}
+\makeslide{Illinois__Randolph County__17157}
+\makeslide{Illinois__Rock Island County__17161}
+\makeslide{Illinois__Sangamon County__17167}
+\makeslide{Illinois__St. Clair County__17163}
+\makeslide{Illinois__Stephenson County__17177}
+\makeslide{Illinois__Tazewell County__17179}
+\makeslide{Illinois__Union County__17181}
+\makeslide{Illinois__Warren County__17187}
+\makeslide{Illinois__Whiteside County__17195}
+\makeslide{Illinois__Will County__17197}
+\makeslide{Illinois__Williamson County__17199}
+\makeslide{Illinois__Winnebago County__17201}
+\makeslide{Indiana__Allen County__18003}
+\makeslide{Indiana__Bartholomew County__18005}
+\makeslide{Indiana__Boone County__18011}
+\makeslide{Indiana__Carroll County__18015}
+\makeslide{Indiana__Cass County__18017}
+\makeslide{Indiana__Clark County__18019}
+\makeslide{Indiana__Clinton County__18023}
+\makeslide{Indiana__Daviess County__18027}
+\makeslide{Indiana__Dearborn County__18029}
+\makeslide{Indiana__Decatur County__18031}
+\makeslide{Indiana__Delaware County__18035}
+\makeslide{Indiana__Dubois County__18037}
+\makeslide{Indiana__Elkhart County__18039}
+\makeslide{Indiana__Fayette County__18041}
+\makeslide{Indiana__Floyd County__18043}
+\makeslide{Indiana__Franklin County__18047}
+\makeslide{Indiana__Grant County__18053}
+\makeslide{Indiana__Greene County__18055}
+\makeslide{Indiana__Hamilton County__18057}
+\makeslide{Indiana__Hancock County__18059}
+\makeslide{Indiana__Harrison County__18061}
+\makeslide{Indiana__Hendricks County__18063}
+\makeslide{Indiana__Henry County__18065}
+\makeslide{Indiana__Howard County__18067}
+\makeslide{Indiana__Jackson County__18071}
+\makeslide{Indiana__Jasper County__18073}
+\makeslide{Indiana__Jennings County__18079}
+\makeslide{Indiana__Johnson County__18081}
+\makeslide{Indiana__Kosciusko County__18085}
+\makeslide{Indiana__LaGrange County__18087}
+\makeslide{Indiana__LaPorte County__18091}
+\makeslide{Indiana__Lake County__18089}
+\makeslide{Indiana__Lawrence County__18093}
+\makeslide{Indiana__Madison County__18095}
+\makeslide{Indiana__Marion County__18097}
+\makeslide{Indiana__Marshall County__18099}
+\makeslide{Indiana__Miami County__18103}
+\makeslide{Indiana__Monroe County__18105}
+\makeslide{Indiana__Montgomery County__18107}
+\makeslide{Indiana__Morgan County__18109}
+\makeslide{Indiana__Newton County__18111}
+\makeslide{Indiana__Noble County__18113}
+\makeslide{Indiana__Orange County__18117}
+\makeslide{Indiana__Porter County__18127}
+\makeslide{Indiana__Putnam County__18133}
+\makeslide{Indiana__Randolph County__18135}
+\makeslide{Indiana__Ripley County__18137}
+\makeslide{Indiana__Rush County__18139}
+\makeslide{Indiana__Scott County__18143}
+\makeslide{Indiana__Shelby County__18145}
+\makeslide{Indiana__St. Joseph County__18141}
+\makeslide{Indiana__Steuben County__18151}
+\makeslide{Indiana__Tippecanoe County__18157}
+\makeslide{Indiana__Vanderburgh County__18163}
+\makeslide{Indiana__Vigo County__18167}
+\makeslide{Indiana__Wabash County__18169}
+\makeslide{Indiana__Warrick County__18173}
+\makeslide{Indiana__Washington County__18175}
+\makeslide{Indiana__Wayne County__18177}
+\makeslide{Indiana__White County__18181}
+\makeslide{Iowa__Allamakee County__19005}
+\makeslide{Iowa__Black Hawk County__19013}
+\makeslide{Iowa__Boone County__19015}
+\makeslide{Iowa__Bremer County__19017}
+\makeslide{Iowa__Buena Vista County__19021}
+\makeslide{Iowa__Clinton County__19045}
+\makeslide{Iowa__Crawford County__19047}
+\makeslide{Iowa__Dallas County__19049}
+\makeslide{Iowa__Des Moines County__19057}
+\makeslide{Iowa__Dubuque County__19061}
+\makeslide{Iowa__Henry County__19087}
+\makeslide{Iowa__Jasper County__19099}
+\makeslide{Iowa__Johnson County__19103}
+\makeslide{Iowa__Linn County__19113}
+\makeslide{Iowa__Louisa County__19115}
+\makeslide{Iowa__Mahaska County__19123}
+\makeslide{Iowa__Marshall County__19127}
+\makeslide{Iowa__Muscatine County__19139}
+\makeslide{Iowa__Plymouth County__19149}
+\makeslide{Iowa__Polk County__19153}
+\makeslide{Iowa__Pottawattamie County__19155}
+\makeslide{Iowa__Poweshiek County__19157}
+\makeslide{Iowa__Scott County__19163}
+\makeslide{Iowa__Sioux County__19167}
+\makeslide{Iowa__Story County__19169}
+\makeslide{Iowa__Tama County__19171}
+\makeslide{Iowa__Wapello County__19179}
+\makeslide{Iowa__Warren County__19181}
+\makeslide{Iowa__Washington County__19183}
+\makeslide{Iowa__Woodbury County__19193}
+\makeslide{Iowa__Wright County__19197}
+\makeslide{Kansas__Douglas County__20045}
+\makeslide{Kansas__Finney County__20055}
+\makeslide{Kansas__Ford County__20057}
+\makeslide{Kansas__Jackson County__20085}
+\makeslide{Kansas__Johnson County__20091}
+\makeslide{Kansas__Leavenworth County__20103}
+\makeslide{Kansas__Lyon County__20111}
+\makeslide{Kansas__Reno County__20155}
+\makeslide{Kansas__Riley County__20161}
+\makeslide{Kansas__Sedgwick County__20173}
+\makeslide{Kansas__Seward County__20175}
+\makeslide{Kansas__Shawnee County__20177}
+\makeslide{Kansas__Wyandotte County__20209}
+\makeslide{Kentucky__Adair County__21001}
+\makeslide{Kentucky__Allen County__21003}
+\makeslide{Kentucky__Boone County__21015}
+\makeslide{Kentucky__Bullitt County__21029}
+\makeslide{Kentucky__Butler County__21031}
+\makeslide{Kentucky__Calloway County__21035}
+\makeslide{Kentucky__Campbell County__21037}
+\makeslide{Kentucky__Christian County__21047}
+\makeslide{Kentucky__Daviess County__21059}
+\makeslide{Kentucky__Edmonson County__21061}
+\makeslide{Kentucky__Fayette County__21067}
+\makeslide{Kentucky__Graves County__21083}
+\makeslide{Kentucky__Grayson County__21085}
+\makeslide{Kentucky__Hardin County__21093}
+\makeslide{Kentucky__Henderson County__21101}
+\makeslide{Kentucky__Hopkins County__21107}
+\makeslide{Kentucky__Jackson County__21109}
+\makeslide{Kentucky__Jefferson County__21111}
+\makeslide{Kentucky__Jessamine County__21113}
+\makeslide{Kentucky__Kenton County__21117}
+\makeslide{Kentucky__Logan County__21141}
+\makeslide{Kentucky__Madison County__21151}
+\makeslide{Kentucky__McCracken County__21145}
+\makeslide{Kentucky__Muhlenberg County__21177}
+\makeslide{Kentucky__Ohio County__21183}
+\makeslide{Kentucky__Oldham County__21185}
+\makeslide{Kentucky__Pulaski County__21199}
+\makeslide{Kentucky__Shelby County__21211}
+\makeslide{Kentucky__Simpson County__21213}
+\makeslide{Kentucky__Warren County__21227}
+\makeslide{Louisiana__None__22001}
+\makeslide{Louisiana__None__22003}
+\makeslide{Louisiana__None__22005}
+\makeslide{Louisiana__None__22007}
+\makeslide{Louisiana__None__22009}
+\makeslide{Louisiana__None__22011}
+\makeslide{Louisiana__None__22013}
+\makeslide{Louisiana__None__22015}
+\makeslide{Louisiana__None__22017}
+\makeslide{Louisiana__None__22019}
+\makeslide{Louisiana__None__22021}
+\makeslide{Louisiana__None__22025}
+\makeslide{Louisiana__None__22027}
+\makeslide{Louisiana__None__22029}
+\makeslide{Louisiana__None__22031}
+\makeslide{Louisiana__None__22033}
+\makeslide{Louisiana__None__22035}
+\makeslide{Louisiana__None__22037}
+\makeslide{Louisiana__None__22039}
+\makeslide{Louisiana__None__22041}
+\makeslide{Louisiana__None__22045}
+\makeslide{Louisiana__None__22047}
+\makeslide{Louisiana__None__22049}
+\makeslide{Louisiana__None__22051}
+\makeslide{Louisiana__None__22053}
+\makeslide{Louisiana__None__22055}
+\makeslide{Louisiana__None__22057}
+\makeslide{Louisiana__None__22061}
+\makeslide{Louisiana__None__22063}
+\makeslide{Louisiana__None__22065}
+\makeslide{Louisiana__None__22067}
+\makeslide{Louisiana__None__22069}
+\makeslide{Louisiana__None__22071}
+\makeslide{Louisiana__None__22073}
+\makeslide{Louisiana__None__22075}
+\makeslide{Louisiana__None__22077}
+\makeslide{Louisiana__None__22079}
+\makeslide{Louisiana__None__22083}
+\makeslide{Louisiana__None__22087}
+\makeslide{Louisiana__None__22089}
+\makeslide{Louisiana__None__22091}
+\makeslide{Louisiana__None__22093}
+\makeslide{Louisiana__None__22095}
+\makeslide{Louisiana__None__22097}
+\makeslide{Louisiana__None__22099}
+\makeslide{Louisiana__None__22101}
+\makeslide{Louisiana__None__22103}
+\makeslide{Louisiana__None__22105}
+\makeslide{Louisiana__None__22109}
+\makeslide{Louisiana__None__22111}
+\makeslide{Louisiana__None__22113}
+\makeslide{Louisiana__None__22117}
+\makeslide{Louisiana__None__22119}
+\makeslide{Louisiana__None__22121}
+\makeslide{Louisiana__None__22125}
+\makeslide{Louisiana__None__22127}
+\makeslide{Maine__Androscoggin County__23001}
+\makeslide{Maine__Cumberland County__23005}
+\makeslide{Maine__Kennebec County__23011}
+\makeslide{Maine__Penobscot County__23019}
+\makeslide{Maine__Waldo County__23027}
+\makeslide{Maine__York County__23031}
+\makeslide{Maryland__Allegany County__24001}
+\makeslide{Maryland__Anne Arundel County__24003}
+\makeslide{Maryland__Baltimore County__24005}
+\makeslide{Maryland__Calvert County__24009}
+\makeslide{Maryland__Caroline County__24011}
+\makeslide{Maryland__Carroll County__24013}
+\makeslide{Maryland__Cecil County__24015}
+\makeslide{Maryland__Charles County__24017}
+\makeslide{Maryland__Dorchester County__24019}
+\makeslide{Maryland__Frederick County__24021}
+\makeslide{Maryland__Harford County__24025}
+\makeslide{Maryland__Howard County__24027}
+\makeslide{Maryland__Kent County__24029}
+\makeslide{Maryland__Montgomery County__24031}
+\makeslide{Maryland__None__24510}
+\makeslide{Maryland__Prince George's County__24033}
+\makeslide{Maryland__Queen Anne's County__24035}
+\makeslide{Maryland__Somerset County__24039}
+\makeslide{Maryland__St. Mary's County__24037}
+\makeslide{Maryland__Talbot County__24041}
+\makeslide{Maryland__Washington County__24043}
+\makeslide{Maryland__Wicomico County__24045}
+\makeslide{Maryland__Worcester County__24047}
+\makeslide{Massachusetts__Barnstable County__25001}
+\makeslide{Massachusetts__Berkshire County__25003}
+\makeslide{Massachusetts__Bristol County__25005}
+\makeslide{Massachusetts__Essex County__25009}
+\makeslide{Massachusetts__Franklin County__25011}
+\makeslide{Massachusetts__Hampden County__25013}
+\makeslide{Massachusetts__Hampshire County__25015}
+\makeslide{Massachusetts__Middlesex County__25017}
+\makeslide{Massachusetts__Norfolk County__25021}
+\makeslide{Massachusetts__Plymouth County__25023}
+\makeslide{Massachusetts__Suffolk County__25025}
+\makeslide{Massachusetts__Worcester County__25027}
+\makeslide{Michigan__Allegan County__26005}
+\makeslide{Michigan__Alpena County__26007}
+\makeslide{Michigan__Barry County__26015}
+\makeslide{Michigan__Bay County__26017}
+\makeslide{Michigan__Berrien County__26021}
+\makeslide{Michigan__Branch County__26023}
+\makeslide{Michigan__Calhoun County__26025}
+\makeslide{Michigan__Cass County__26027}
+\makeslide{Michigan__Clinton County__26037}
+\makeslide{Michigan__Crawford County__26039}
+\makeslide{Michigan__Eaton County__26045}
+\makeslide{Michigan__Genesee County__26049}
+\makeslide{Michigan__Gratiot County__26057}
+\makeslide{Michigan__Hillsdale County__26059}
+\makeslide{Michigan__Ingham County__26065}
+\makeslide{Michigan__Ionia County__26067}
+\makeslide{Michigan__Iosco County__26069}
+\makeslide{Michigan__Isabella County__26073}
+\makeslide{Michigan__Jackson County__26075}
+\makeslide{Michigan__Kalamazoo County__26077}
+\makeslide{Michigan__Kent County__26081}
+\makeslide{Michigan__Lapeer County__26087}
+\makeslide{Michigan__Lenawee County__26091}
+\makeslide{Michigan__Livingston County__26093}
+\makeslide{Michigan__Macomb County__26099}
+\makeslide{Michigan__Marquette County__26103}
+\makeslide{Michigan__Midland County__26111}
+\makeslide{Michigan__Monroe County__26115}
+\makeslide{Michigan__Montcalm County__26117}
+\makeslide{Michigan__Muskegon County__26121}
+\makeslide{Michigan__Newaygo County__26123}
+\makeslide{Michigan__Oakland County__26125}
+\makeslide{Michigan__Oceana County__26127}
+\makeslide{Michigan__Otsego County__26137}
+\makeslide{Michigan__Ottawa County__26139}
+\makeslide{Michigan__Saginaw County__26145}
+\makeslide{Michigan__Shiawassee County__26155}
+\makeslide{Michigan__St. Clair County__26147}
+\makeslide{Michigan__St. Joseph County__26149}
+\makeslide{Michigan__Tuscola County__26157}
+\makeslide{Michigan__Van Buren County__26159}
+\makeslide{Michigan__Washtenaw County__26161}
+\makeslide{Michigan__Wayne County__26163}
+\makeslide{Minnesota__Anoka County__27003}
+\makeslide{Minnesota__Benton County__27009}
+\makeslide{Minnesota__Blue Earth County__27013}
+\makeslide{Minnesota__Carlton County__27017}
+\makeslide{Minnesota__Carver County__27019}
+\makeslide{Minnesota__Clay County__27027}
+\makeslide{Minnesota__Cottonwood County__27033}
+\makeslide{Minnesota__Crow Wing County__27035}
+\makeslide{Minnesota__Dakota County__27037}
+\makeslide{Minnesota__Freeborn County__27047}
+\makeslide{Minnesota__Goodhue County__27049}
+\makeslide{Minnesota__Hennepin County__27053}
+\makeslide{Minnesota__Itasca County__27061}
+\makeslide{Minnesota__Kandiyohi County__27067}
+\makeslide{Minnesota__Martin County__27091}
+\makeslide{Minnesota__Mower County__27099}
+\makeslide{Minnesota__Nicollet County__27103}
+\makeslide{Minnesota__Nobles County__27105}
+\makeslide{Minnesota__Olmsted County__27109}
+\makeslide{Minnesota__Otter Tail County__27111}
+\makeslide{Minnesota__Pine County__27115}
+\makeslide{Minnesota__Polk County__27119}
+\makeslide{Minnesota__Ramsey County__27123}
+\makeslide{Minnesota__Rice County__27131}
+\makeslide{Minnesota__Scott County__27139}
+\makeslide{Minnesota__Sherburne County__27141}
+\makeslide{Minnesota__St. Louis County__27137}
+\makeslide{Minnesota__Stearns County__27145}
+\makeslide{Minnesota__Steele County__27147}
+\makeslide{Minnesota__Todd County__27153}
+\makeslide{Minnesota__Washington County__27163}
+\makeslide{Minnesota__Watonwan County__27165}
+\makeslide{Minnesota__Winona County__27169}
+\makeslide{Minnesota__Wright County__27171}
+\makeslide{Mississippi__Adams County__28001}
+\makeslide{Mississippi__Amite County__28005}
+\makeslide{Mississippi__Attala County__28007}
+\makeslide{Mississippi__Bolivar County__28011}
+\makeslide{Mississippi__Calhoun County__28013}
+\makeslide{Mississippi__Carroll County__28015}
+\makeslide{Mississippi__Chickasaw County__28017}
+\makeslide{Mississippi__Claiborne County__28021}
+\makeslide{Mississippi__Clarke County__28023}
+\makeslide{Mississippi__Clay County__28025}
+\makeslide{Mississippi__Coahoma County__28027}
+\makeslide{Mississippi__Copiah County__28029}
+\makeslide{Mississippi__Covington County__28031}
+\makeslide{Mississippi__DeSoto County__28033}
+\makeslide{Mississippi__Forrest County__28035}
+\makeslide{Mississippi__Grenada County__28043}
+\makeslide{Mississippi__Hancock County__28045}
+\makeslide{Mississippi__Harrison County__28047}
+\makeslide{Mississippi__Hinds County__28049}
+\makeslide{Mississippi__Holmes County__28051}
+\makeslide{Mississippi__Humphreys County__28053}
+\makeslide{Mississippi__Itawamba County__28057}
+\makeslide{Mississippi__Jackson County__28059}
+\makeslide{Mississippi__Jasper County__28061}
+\makeslide{Mississippi__Jefferson Davis County__28065}
+\makeslide{Mississippi__Jones County__28067}
+\makeslide{Mississippi__Kemper County__28069}
+\makeslide{Mississippi__Lafayette County__28071}
+\makeslide{Mississippi__Lamar County__28073}
+\makeslide{Mississippi__Lauderdale County__28075}
+\makeslide{Mississippi__Lawrence County__28077}
+\makeslide{Mississippi__Leake County__28079}
+\makeslide{Mississippi__Lee County__28081}
+\makeslide{Mississippi__Leflore County__28083}
+\makeslide{Mississippi__Lincoln County__28085}
+\makeslide{Mississippi__Lowndes County__28087}
+\makeslide{Mississippi__Madison County__28089}
+\makeslide{Mississippi__Marion County__28091}
+\makeslide{Mississippi__Marshall County__28093}
+\makeslide{Mississippi__Monroe County__28095}
+\makeslide{Mississippi__Montgomery County__28097}
+\makeslide{Mississippi__Neshoba County__28099}
+\makeslide{Mississippi__Newton County__28101}
+\makeslide{Mississippi__Noxubee County__28103}
+\makeslide{Mississippi__Oktibbeha County__28105}
+\makeslide{Mississippi__Panola County__28107}
+\makeslide{Mississippi__Pearl River County__28109}
+\makeslide{Mississippi__Pike County__28113}
+\makeslide{Mississippi__Rankin County__28121}
+\makeslide{Mississippi__Scott County__28123}
+\makeslide{Mississippi__Simpson County__28127}
+\makeslide{Mississippi__Smith County__28129}
+\makeslide{Mississippi__Sunflower County__28133}
+\makeslide{Mississippi__Tate County__28137}
+\makeslide{Mississippi__Tippah County__28139}
+\makeslide{Mississippi__Tunica County__28143}
+\makeslide{Mississippi__Union County__28145}
+\makeslide{Mississippi__Walthall County__28147}
+\makeslide{Mississippi__Warren County__28149}
+\makeslide{Mississippi__Washington County__28151}
+\makeslide{Mississippi__Wayne County__28153}
+\makeslide{Mississippi__Webster County__28155}
+\makeslide{Mississippi__Wilkinson County__28157}
+\makeslide{Mississippi__Winston County__28159}
+\makeslide{Mississippi__Yalobusha County__28161}
+\makeslide{Mississippi__Yazoo County__28163}
+\makeslide{Missouri__Audrain County__29007}
+\makeslide{Missouri__Boone County__29019}
+\makeslide{Missouri__Buchanan County__29021}
+\makeslide{Missouri__Cape Girardeau County__29031}
+\makeslide{Missouri__Cass County__29037}
+\makeslide{Missouri__Clay County__29047}
+\makeslide{Missouri__Cole County__29051}
+\makeslide{Missouri__Franklin County__29071}
+\makeslide{Missouri__Greene County__29077}
+\makeslide{Missouri__Jackson County__29095}
+\makeslide{Missouri__Jefferson County__29099}
+\makeslide{Missouri__Johnson County__29101}
+\makeslide{Missouri__Lafayette County__29107}
+\makeslide{Missouri__Lincoln County__29113}
+\makeslide{Missouri__Mississippi County__29133}
+\makeslide{Missouri__Moniteau County__29135}
+\makeslide{Missouri__None__29510}
+\makeslide{Missouri__Pemiscot County__29155}
+\makeslide{Missouri__Pettis County__29159}
+\makeslide{Missouri__Platte County__29165}
+\makeslide{Missouri__Saline County__29195}
+\makeslide{Missouri__Scott County__29201}
+\makeslide{Missouri__St. Charles County__29183}
+\makeslide{Missouri__St. Louis County__29189}
+\makeslide{Missouri__Stoddard County__29207}
+\makeslide{Missouri__Sullivan County__29211}
+\makeslide{Montana__Gallatin County__30031}
+\makeslide{Montana__Yellowstone County__30111}
+\makeslide{Nebraska__Adams County__31001}
+\makeslide{Nebraska__Buffalo County__31019}
+\makeslide{Nebraska__Colfax County__31037}
+\makeslide{Nebraska__Dakota County__31043}
+\makeslide{Nebraska__Dawson County__31047}
+\makeslide{Nebraska__Dodge County__31053}
+\makeslide{Nebraska__Douglas County__31055}
+\makeslide{Nebraska__Hall County__31079}
+\makeslide{Nebraska__Hamilton County__31081}
+\makeslide{Nebraska__Lancaster County__31109}
+\makeslide{Nebraska__Madison County__31119}
+\makeslide{Nebraska__Platte County__31141}
+\makeslide{Nebraska__Saline County__31151}
+\makeslide{Nebraska__Sarpy County__31153}
+\makeslide{Nebraska__Scotts Bluff County__31157}
+\makeslide{Nevada__Clark County__32003}
+\makeslide{Nevada__Humboldt County__32013}
+\makeslide{Nevada__Lyon County__32019}
+\makeslide{Nevada__None__32510}
+\makeslide{Nevada__Nye County__32023}
+\makeslide{Nevada__Washoe County__32031}
+\makeslide{New Hampshire__Belknap County__33001}
+\makeslide{New Hampshire__Cheshire County__33005}
+\makeslide{New Hampshire__Grafton County__33009}
+\makeslide{New Hampshire__Hillsborough County__33011}
+\makeslide{New Hampshire__Merrimack County__33013}
+\makeslide{New Hampshire__Rockingham County__33015}
+\makeslide{New Hampshire__Strafford County__33017}
+\makeslide{New Jersey__Atlantic County__34001}
+\makeslide{New Jersey__Bergen County__34003}
+\makeslide{New Jersey__Burlington County__34005}
+\makeslide{New Jersey__Camden County__34007}
+\makeslide{New Jersey__Cape May County__34009}
+\makeslide{New Jersey__Cumberland County__34011}
+\makeslide{New Jersey__Essex County__34013}
+\makeslide{New Jersey__Gloucester County__34015}
+\makeslide{New Jersey__Hudson County__34017}
+\makeslide{New Jersey__Hunterdon County__34019}
+\makeslide{New Jersey__Mercer County__34021}
+\makeslide{New Jersey__Middlesex County__34023}
+\makeslide{New Jersey__Monmouth County__34025}
+\makeslide{New Jersey__Morris County__34027}
+\makeslide{New Jersey__Ocean County__34029}
+\makeslide{New Jersey__Passaic County__34031}
+\makeslide{New Jersey__Salem County__34033}
+\makeslide{New Jersey__Somerset County__34035}
+\makeslide{New Jersey__Sussex County__34037}
+\makeslide{New Jersey__Union County__34039}
+\makeslide{New Jersey__Warren County__34041}
+\makeslide{New Mexico__Bernalillo County__35001}
+\makeslide{New Mexico__Cibola County__35006}
+\makeslide{New Mexico__McKinley County__35031}
+\makeslide{New Mexico__None__35013}
+\makeslide{New Mexico__Otero County__35035}
+\makeslide{New Mexico__San Juan County__35045}
+\makeslide{New Mexico__Sandoval County__35043}
+\makeslide{New Mexico__Santa Fe County__35049}
+\makeslide{New Mexico__Valencia County__35061}
+\makeslide{New York__Albany County__36001}
+\makeslide{New York__Broome County__36007}
+\makeslide{New York__Cattaraugus County__36009}
+\makeslide{New York__Cayuga County__36011}
+\makeslide{New York__Chautauqua County__36013}
+\makeslide{New York__Chemung County__36015}
+\makeslide{New York__Chenango County__36017}
+\makeslide{New York__Clinton County__36019}
+\makeslide{New York__Columbia County__36021}
+\makeslide{New York__Delaware County__36025}
+\makeslide{New York__Dutchess County__36027}
+\makeslide{New York__Erie County__36029}
+\makeslide{New York__Fulton County__36035}
+\makeslide{New York__Genesee County__36037}
+\makeslide{New York__Greene County__36039}
+\makeslide{New York__Herkimer County__36043}
+\makeslide{New York__Jefferson County__36045}
+\makeslide{New York__Livingston County__36051}
+\makeslide{New York__Madison County__36053}
+\makeslide{New York__Monroe County__36055}
+\makeslide{New York__Montgomery County__36057}
+\makeslide{New York__Nassau County__36059}
+\makeslide{New York__New York County__36061}
+\makeslide{New York__Niagara County__36063}
+\makeslide{New York__Oneida County__36065}
+\makeslide{New York__Onondaga County__36067}
+\makeslide{New York__Ontario County__36069}
+\makeslide{New York__Orange County__36071}
+\makeslide{New York__Orleans County__36073}
+\makeslide{New York__Oswego County__36075}
+\makeslide{New York__Otsego County__36077}
+\makeslide{New York__Putnam County__36079}
+\makeslide{New York__Rensselaer County__36083}
+\makeslide{New York__Rockland County__36087}
+\makeslide{New York__Saratoga County__36091}
+\makeslide{New York__Schenectady County__36093}
+\makeslide{New York__Seneca County__36099}
+\makeslide{New York__St. Lawrence County__36089}
+\makeslide{New York__Steuben County__36101}
+\makeslide{New York__Suffolk County__36103}
+\makeslide{New York__Sullivan County__36105}
+\makeslide{New York__Tioga County__36107}
+\makeslide{New York__Tompkins County__36109}
+\makeslide{New York__Ulster County__36111}
+\makeslide{New York__Warren County__36113}
+\makeslide{New York__Washington County__36115}
+\makeslide{New York__Wayne County__36117}
+\makeslide{New York__Westchester County__36119}
+\makeslide{New York__Wyoming County__36121}
+\makeslide{North Carolina__Alamance County__37001}
+\makeslide{North Carolina__Anson County__37007}
+\makeslide{North Carolina__Bertie County__37015}
+\makeslide{North Carolina__Bladen County__37017}
+\makeslide{North Carolina__Brunswick County__37019}
+\makeslide{North Carolina__Buncombe County__37021}
+\makeslide{North Carolina__Burke County__37023}
+\makeslide{North Carolina__Cabarrus County__37025}
+\makeslide{North Carolina__Caldwell County__37027}
+\makeslide{North Carolina__Caswell County__37033}
+\makeslide{North Carolina__Catawba County__37035}
+\makeslide{North Carolina__Chatham County__37037}
+\makeslide{North Carolina__Cleveland County__37045}
+\makeslide{North Carolina__Columbus County__37047}
+\makeslide{North Carolina__Craven County__37049}
+\makeslide{North Carolina__Cumberland County__37051}
+\makeslide{North Carolina__Davidson County__37057}
+\makeslide{North Carolina__Davie County__37059}
+\makeslide{North Carolina__Duplin County__37061}
+\makeslide{North Carolina__Durham County__37063}
+\makeslide{North Carolina__Edgecombe County__37065}
+\makeslide{North Carolina__Forsyth County__37067}
+\makeslide{North Carolina__Franklin County__37069}
+\makeslide{North Carolina__Gaston County__37071}
+\makeslide{North Carolina__Granville County__37077}
+\makeslide{North Carolina__Greene County__37079}
+\makeslide{North Carolina__Guilford County__37081}
+\makeslide{North Carolina__Halifax County__37083}
+\makeslide{North Carolina__Harnett County__37085}
+\makeslide{North Carolina__Henderson County__37089}
+\makeslide{North Carolina__Hertford County__37091}
+\makeslide{North Carolina__Hoke County__37093}
+\makeslide{North Carolina__Iredell County__37097}
+\makeslide{North Carolina__Johnston County__37101}
+\makeslide{North Carolina__Lee County__37105}
+\makeslide{North Carolina__Lenoir County__37107}
+\makeslide{North Carolina__Lincoln County__37109}
+\makeslide{North Carolina__Martin County__37117}
+\makeslide{North Carolina__Mecklenburg County__37119}
+\makeslide{North Carolina__Montgomery County__37123}
+\makeslide{North Carolina__Moore County__37125}
+\makeslide{North Carolina__Nash County__37127}
+\makeslide{North Carolina__New Hanover County__37129}
+\makeslide{North Carolina__Northampton County__37131}
+\makeslide{North Carolina__Onslow County__37133}
+\makeslide{North Carolina__Orange County__37135}
+\makeslide{North Carolina__Pasquotank County__37139}
+\makeslide{North Carolina__Pender County__37141}
+\makeslide{North Carolina__Pitt County__37147}
+\makeslide{North Carolina__Randolph County__37151}
+\makeslide{North Carolina__Richmond County__37153}
+\makeslide{North Carolina__Robeson County__37155}
+\makeslide{North Carolina__Rockingham County__37157}
+\makeslide{North Carolina__Rowan County__37159}
+\makeslide{North Carolina__Rutherford County__37161}
+\makeslide{North Carolina__Sampson County__37163}
+\makeslide{North Carolina__Scotland County__37165}
+\makeslide{North Carolina__Stanly County__37167}
+\makeslide{North Carolina__Stokes County__37169}
+\makeslide{North Carolina__Surry County__37171}
+\makeslide{North Carolina__Union County__37179}
+\makeslide{North Carolina__Vance County__37181}
+\makeslide{North Carolina__Wake County__37183}
+\makeslide{North Carolina__Warren County__37185}
+\makeslide{North Carolina__Wayne County__37191}
+\makeslide{North Carolina__Wilkes County__37193}
+\makeslide{North Carolina__Wilson County__37195}
+\makeslide{North Carolina__Yadkin County__37197}
+\makeslide{North Dakota__Burleigh County__38015}
+\makeslide{North Dakota__Cass County__38017}
+\makeslide{North Dakota__Grand Forks County__38035}
+\makeslide{North Dakota__Morton County__38059}
+\makeslide{North Dakota__Stark County__38089}
+\makeslide{North Dakota__Ward County__38101}
+\makeslide{Ohio__Allen County__39003}
+\makeslide{Ohio__Ashtabula County__39007}
+\makeslide{Ohio__Auglaize County__39011}
+\makeslide{Ohio__Belmont County__39013}
+\makeslide{Ohio__Butler County__39017}
+\makeslide{Ohio__Clark County__39023}
+\makeslide{Ohio__Clermont County__39025}
+\makeslide{Ohio__Columbiana County__39029}
+\makeslide{Ohio__Crawford County__39033}
+\makeslide{Ohio__Cuyahoga County__39035}
+\makeslide{Ohio__Darke County__39037}
+\makeslide{Ohio__Delaware County__39041}
+\makeslide{Ohio__Erie County__39043}
+\makeslide{Ohio__Fairfield County__39045}
+\makeslide{Ohio__Franklin County__39049}
+\makeslide{Ohio__Geauga County__39055}
+\makeslide{Ohio__Greene County__39057}
+\makeslide{Ohio__Hamilton County__39061}
+\makeslide{Ohio__Hancock County__39063}
+\makeslide{Ohio__Hocking County__39073}
+\makeslide{Ohio__Huron County__39077}
+\makeslide{Ohio__Jefferson County__39081}
+\makeslide{Ohio__Lake County__39085}
+\makeslide{Ohio__Licking County__39089}
+\makeslide{Ohio__Lorain County__39093}
+\makeslide{Ohio__Lucas County__39095}
+\makeslide{Ohio__Madison County__39097}
+\makeslide{Ohio__Mahoning County__39099}
+\makeslide{Ohio__Marion County__39101}
+\makeslide{Ohio__Medina County__39103}
+\makeslide{Ohio__Mercer County__39107}
+\makeslide{Ohio__Miami County__39109}
+\makeslide{Ohio__Monroe County__39111}
+\makeslide{Ohio__Montgomery County__39113}
+\makeslide{Ohio__Morrow County__39117}
+\makeslide{Ohio__Ottawa County__39123}
+\makeslide{Ohio__Pickaway County__39129}
+\makeslide{Ohio__Portage County__39133}
+\makeslide{Ohio__Putnam County__39137}
+\makeslide{Ohio__Richland County__39139}
+\makeslide{Ohio__Ross County__39141}
+\makeslide{Ohio__Sandusky County__39143}
+\makeslide{Ohio__Stark County__39151}
+\makeslide{Ohio__Summit County__39153}
+\makeslide{Ohio__Trumbull County__39155}
+\makeslide{Ohio__Tuscarawas County__39157}
+\makeslide{Ohio__Warren County__39165}
+\makeslide{Ohio__Washington County__39167}
+\makeslide{Ohio__Wayne County__39169}
+\makeslide{Ohio__Williams County__39171}
+\makeslide{Ohio__Wood County__39173}
+\makeslide{Oklahoma__Adair County__40001}
+\makeslide{Oklahoma__Caddo County__40015}
+\makeslide{Oklahoma__Canadian County__40017}
+\makeslide{Oklahoma__Cleveland County__40027}
+\makeslide{Oklahoma__Comanche County__40031}
+\makeslide{Oklahoma__Creek County__40037}
+\makeslide{Oklahoma__Delaware County__40041}
+\makeslide{Oklahoma__Grady County__40051}
+\makeslide{Oklahoma__Greer County__40055}
+\makeslide{Oklahoma__Kay County__40071}
+\makeslide{Oklahoma__McClain County__40087}
+\makeslide{Oklahoma__Oklahoma County__40109}
+\makeslide{Oklahoma__Osage County__40113}
+\makeslide{Oklahoma__Pottawatomie County__40125}
+\makeslide{Oklahoma__Rogers County__40131}
+\makeslide{Oklahoma__Texas County__40139}
+\makeslide{Oklahoma__Tulsa County__40143}
+\makeslide{Oklahoma__Wagoner County__40145}
+\makeslide{Oklahoma__Washington County__40147}
+\makeslide{Oregon__Benton County__41003}
+\makeslide{Oregon__Clackamas County__41005}
+\makeslide{Oregon__Deschutes County__41017}
+\makeslide{Oregon__Jackson County__41029}
+\makeslide{Oregon__Lane County__41039}
+\makeslide{Oregon__Linn County__41043}
+\makeslide{Oregon__Marion County__41047}
+\makeslide{Oregon__Multnomah County__41051}
+\makeslide{Oregon__Polk County__41053}
+\makeslide{Oregon__Umatilla County__41059}
+\makeslide{Oregon__Washington County__41067}
+\makeslide{Oregon__Yamhill County__41071}
+\makeslide{Pennsylvania__Adams County__42001}
+\makeslide{Pennsylvania__Allegheny County__42003}
+\makeslide{Pennsylvania__Armstrong County__42005}
+\makeslide{Pennsylvania__Beaver County__42007}
+\makeslide{Pennsylvania__Berks County__42011}
+\makeslide{Pennsylvania__Bucks County__42017}
+\makeslide{Pennsylvania__Butler County__42019}
+\makeslide{Pennsylvania__Cambria County__42021}
+\makeslide{Pennsylvania__Carbon County__42025}
+\makeslide{Pennsylvania__Centre County__42027}
+\makeslide{Pennsylvania__Chester County__42029}
+\makeslide{Pennsylvania__Clinton County__42035}
+\makeslide{Pennsylvania__Columbia County__42037}
+\makeslide{Pennsylvania__Cumberland County__42041}
+\makeslide{Pennsylvania__Dauphin County__42043}
+\makeslide{Pennsylvania__Delaware County__42045}
+\makeslide{Pennsylvania__Erie County__42049}
+\makeslide{Pennsylvania__Fayette County__42051}
+\makeslide{Pennsylvania__Franklin County__42055}
+\makeslide{Pennsylvania__Huntingdon County__42061}
+\makeslide{Pennsylvania__Indiana County__42063}
+\makeslide{Pennsylvania__Juniata County__42067}
+\makeslide{Pennsylvania__Lackawanna County__42069}
+\makeslide{Pennsylvania__Lancaster County__42071}
+\makeslide{Pennsylvania__Lawrence County__42073}
+\makeslide{Pennsylvania__Lebanon County__42075}
+\makeslide{Pennsylvania__Lehigh County__42077}
+\makeslide{Pennsylvania__Luzerne County__42079}
+\makeslide{Pennsylvania__Lycoming County__42081}
+\makeslide{Pennsylvania__Mercer County__42085}
+\makeslide{Pennsylvania__Mifflin County__42087}
+\makeslide{Pennsylvania__Monroe County__42089}
+\makeslide{Pennsylvania__Montgomery County__42091}
+\makeslide{Pennsylvania__Montour County__42093}
+\makeslide{Pennsylvania__Northampton County__42095}
+\makeslide{Pennsylvania__Northumberland County__42097}
+\makeslide{Pennsylvania__Philadelphia County__42101}
+\makeslide{Pennsylvania__Pike County__42103}
+\makeslide{Pennsylvania__Schuylkill County__42107}
+\makeslide{Pennsylvania__Susquehanna County__42115}
+\makeslide{Pennsylvania__Union County__42119}
+\makeslide{Pennsylvania__Washington County__42125}
+\makeslide{Pennsylvania__Wayne County__42127}
+\makeslide{Pennsylvania__Westmoreland County__42129}
+\makeslide{Pennsylvania__York County__42133}
+\makeslide{Rhode Island__Bristol County__44001}
+\makeslide{Rhode Island__Kent County__44003}
+\makeslide{Rhode Island__Newport County__44005}
+\makeslide{Rhode Island__Providence County__44007}
+\makeslide{Rhode Island__Washington County__44009}
+\makeslide{South Carolina__Aiken County__45003}
+\makeslide{South Carolina__Anderson County__45007}
+\makeslide{South Carolina__Beaufort County__45013}
+\makeslide{South Carolina__Berkeley County__45015}
+\makeslide{South Carolina__Charleston County__45019}
+\makeslide{South Carolina__Chester County__45023}
+\makeslide{South Carolina__Chesterfield County__45025}
+\makeslide{South Carolina__Clarendon County__45027}
+\makeslide{South Carolina__Colleton County__45029}
+\makeslide{South Carolina__Darlington County__45031}
+\makeslide{South Carolina__Dillon County__45033}
+\makeslide{South Carolina__Dorchester County__45035}
+\makeslide{South Carolina__Fairfield County__45039}
+\makeslide{South Carolina__Florence County__45041}
+\makeslide{South Carolina__Georgetown County__45043}
+\makeslide{South Carolina__Greenville County__45045}
+\makeslide{South Carolina__Greenwood County__45047}
+\makeslide{South Carolina__Horry County__45051}
+\makeslide{South Carolina__Kershaw County__45055}
+\makeslide{South Carolina__Lancaster County__45057}
+\makeslide{South Carolina__Laurens County__45059}
+\makeslide{South Carolina__Lee County__45061}
+\makeslide{South Carolina__Lexington County__45063}
+\makeslide{South Carolina__Marion County__45067}
+\makeslide{South Carolina__Marlboro County__45069}
+\makeslide{South Carolina__Newberry County__45071}
+\makeslide{South Carolina__Orangeburg County__45075}
+\makeslide{South Carolina__Pickens County__45077}
+\makeslide{South Carolina__Richland County__45079}
+\makeslide{South Carolina__Saluda County__45081}
+\makeslide{South Carolina__Spartanburg County__45083}
+\makeslide{South Carolina__Sumter County__45085}
+\makeslide{South Carolina__Williamsburg County__45089}
+\makeslide{South Carolina__York County__45091}
+\makeslide{South Dakota__Beadle County__46005}
+\makeslide{South Dakota__Brown County__46013}
+\makeslide{South Dakota__Lincoln County__46083}
+\makeslide{South Dakota__Minnehaha County__46099}
+\makeslide{South Dakota__Pennington County__46103}
+\makeslide{South Dakota__Union County__46127}
+\makeslide{South Dakota__Yankton County__46135}
+\makeslide{Tennessee__Bedford County__47003}
+\makeslide{Tennessee__Bledsoe County__47007}
+\makeslide{Tennessee__Blount County__47009}
+\makeslide{Tennessee__Bradley County__47011}
+\makeslide{Tennessee__Cheatham County__47021}
+\makeslide{Tennessee__Coffee County__47031}
+\makeslide{Tennessee__Cumberland County__47035}
+\makeslide{Tennessee__Davidson County__47037}
+\makeslide{Tennessee__Dickson County__47043}
+\makeslide{Tennessee__Fayette County__47047}
+\makeslide{Tennessee__Gibson County__47053}
+\makeslide{Tennessee__Hamilton County__47065}
+\makeslide{Tennessee__Hardeman County__47069}
+\makeslide{Tennessee__Hickman County__47081}
+\makeslide{Tennessee__Knox County__47093}
+\makeslide{Tennessee__Lake County__47095}
+\makeslide{Tennessee__Lauderdale County__47097}
+\makeslide{Tennessee__Loudon County__47105}
+\makeslide{Tennessee__Macon County__47111}
+\makeslide{Tennessee__Madison County__47113}
+\makeslide{Tennessee__Maury County__47119}
+\makeslide{Tennessee__McMinn County__47107}
+\makeslide{Tennessee__Monroe County__47123}
+\makeslide{Tennessee__Montgomery County__47125}
+\makeslide{Tennessee__Putnam County__47141}
+\makeslide{Tennessee__Rhea County__47143}
+\makeslide{Tennessee__Robertson County__47147}
+\makeslide{Tennessee__Rutherford County__47149}
+\makeslide{Tennessee__Sevier County__47155}
+\makeslide{Tennessee__Shelby County__47157}
+\makeslide{Tennessee__Sullivan County__47163}
+\makeslide{Tennessee__Sumner County__47165}
+\makeslide{Tennessee__Tipton County__47167}
+\makeslide{Tennessee__Trousdale County__47169}
+\makeslide{Tennessee__Washington County__47179}
+\makeslide{Tennessee__Williamson County__47187}
+\makeslide{Tennessee__Wilson County__47189}
+\makeslide{Texas__Anderson County__48001}
+\makeslide{Texas__Angelina County__48005}
+\makeslide{Texas__Bastrop County__48021}
+\makeslide{Texas__Bell County__48027}
+\makeslide{Texas__Bexar County__48029}
+\makeslide{Texas__Bowie County__48037}
+\makeslide{Texas__Brazoria County__48039}
+\makeslide{Texas__Brazos County__48041}
+\makeslide{Texas__Brown County__48049}
+\makeslide{Texas__Caldwell County__48055}
+\makeslide{Texas__Cameron County__48061}
+\makeslide{Texas__Camp County__48063}
+\makeslide{Texas__Chambers County__48071}
+\makeslide{Texas__Collin County__48085}
+\makeslide{Texas__Comal County__48091}
+\makeslide{Texas__Coryell County__48099}
+\makeslide{Texas__Dallas County__48113}
+\makeslide{Texas__Deaf Smith County__48117}
+\makeslide{Texas__Denton County__48121}
+\makeslide{Texas__Ector County__48135}
+\makeslide{Texas__El Paso County__48141}
+\makeslide{Texas__Ellis County__48139}
+\makeslide{Texas__Fort Bend County__48157}
+\makeslide{Texas__Galveston County__48167}
+\makeslide{Texas__Gonzales County__48177}
+\makeslide{Texas__Gray County__48179}
+\makeslide{Texas__Grayson County__48181}
+\makeslide{Texas__Gregg County__48183}
+\makeslide{Texas__Grimes County__48185}
+\makeslide{Texas__Guadalupe County__48187}
+\makeslide{Texas__Hale County__48189}
+\makeslide{Texas__Hardin County__48199}
+\makeslide{Texas__Harris County__48201}
+\makeslide{Texas__Harrison County__48203}
+\makeslide{Texas__Hays County__48209}
+\makeslide{Texas__Henderson County__48213}
+\makeslide{Texas__Hidalgo County__48215}
+\makeslide{Texas__Houston County__48225}
+\makeslide{Texas__Hunt County__48231}
+\makeslide{Texas__Jefferson County__48245}
+\makeslide{Texas__Johnson County__48251}
+\makeslide{Texas__Jones County__48253}
+\makeslide{Texas__Kaufman County__48257}
+\makeslide{Texas__Lamar County__48277}
+\makeslide{Texas__Liberty County__48291}
+\makeslide{Texas__Lubbock County__48303}
+\makeslide{Texas__Matagorda County__48321}
+\makeslide{Texas__Maverick County__48323}
+\makeslide{Texas__McLennan County__48309}
+\makeslide{Texas__Medina County__48325}
+\makeslide{Texas__Midland County__48329}
+\makeslide{Texas__Montgomery County__48339}
+\makeslide{Texas__Moore County__48341}
+\makeslide{Texas__Nacogdoches County__48347}
+\makeslide{Texas__Nueces County__48355}
+\makeslide{Texas__Ochiltree County__48357}
+\makeslide{Texas__Orange County__48361}
+\makeslide{Texas__Panola County__48365}
+\makeslide{Texas__Parker County__48367}
+\makeslide{Texas__Parmer County__48369}
+\makeslide{Texas__Polk County__48373}
+\makeslide{Texas__Potter County__48375}
+\makeslide{Texas__Randall County__48381}
+\makeslide{Texas__Rockwall County__48397}
+\makeslide{Texas__Shelby County__48419}
+\makeslide{Texas__Smith County__48423}
+\makeslide{Texas__Tarrant County__48439}
+\makeslide{Texas__Taylor County__48441}
+\makeslide{Texas__Titus County__48449}
+\makeslide{Texas__Tom Green County__48451}
+\makeslide{Texas__Travis County__48453}
+\makeslide{Texas__Victoria County__48469}
+\makeslide{Texas__Walker County__48471}
+\makeslide{Texas__Waller County__48473}
+\makeslide{Texas__Washington County__48477}
+\makeslide{Texas__Webb County__48479}
+\makeslide{Texas__Wharton County__48481}
+\makeslide{Texas__Wichita County__48485}
+\makeslide{Texas__Williamson County__48491}
+\makeslide{Utah__Cache County__49005}
+\makeslide{Utah__Davis County__49011}
+\makeslide{Utah__Salt Lake County__49035}
+\makeslide{Utah__San Juan County__49037}
+\makeslide{Utah__Summit County__49043}
+\makeslide{Utah__Tooele County__49045}
+\makeslide{Utah__Utah County__49049}
+\makeslide{Utah__Wasatch County__49051}
+\makeslide{Utah__Washington County__49053}
+\makeslide{Utah__Weber County__49057}
+\makeslide{Vermont__Addison County__50001}
+\makeslide{Vermont__Bennington County__50003}
+\makeslide{Vermont__Chittenden County__50007}
+\makeslide{Vermont__Franklin County__50011}
+\makeslide{Vermont__Rutland County__50021}
+\makeslide{Vermont__Windham County__50025}
+\makeslide{Vermont__Windsor County__50027}
+\makeslide{Virginia__Accomack County__51001}
+\makeslide{Virginia__Albemarle County__51003}
+\makeslide{Virginia__Arlington County__51013}
+\makeslide{Virginia__Augusta County__51015}
+\makeslide{Virginia__Buckingham County__51029}
+\makeslide{Virginia__Caroline County__51033}
+\makeslide{Virginia__Carroll County__51035}
+\makeslide{Virginia__Chesterfield County__51041}
+\makeslide{Virginia__Culpeper County__51047}
+\makeslide{Virginia__Dinwiddie County__51053}
+\makeslide{Virginia__Fairfax County__51059}
+\makeslide{Virginia__Fauquier County__51061}
+\makeslide{Virginia__Fluvanna County__51065}
+\makeslide{Virginia__Frederick County__51069}
+\makeslide{Virginia__Goochland County__51075}
+\makeslide{Virginia__Greensville County__51081}
+\makeslide{Virginia__Hanover County__51085}
+\makeslide{Virginia__Henrico County__51087}
+\makeslide{Virginia__Henry County__51089}
+\makeslide{Virginia__Isle of Wight County__51093}
+\makeslide{Virginia__James City County__51095}
+\makeslide{Virginia__King George County__51099}
+\makeslide{Virginia__Loudoun County__51107}
+\makeslide{Virginia__Louisa County__51109}
+\makeslide{Virginia__Mecklenburg County__51117}
+\makeslide{Virginia__Montgomery County__51121}
+\makeslide{Virginia__None__51510}
+\makeslide{Virginia__None__51540}
+\makeslide{Virginia__None__51550}
+\makeslide{Virginia__None__51570}
+\makeslide{Virginia__None__51595}
+\makeslide{Virginia__None__51600}
+\makeslide{Virginia__None__51630}
+\makeslide{Virginia__None__51640}
+\makeslide{Virginia__None__51650}
+\makeslide{Virginia__None__51660}
+\makeslide{Virginia__None__51670}
+\makeslide{Virginia__None__51680}
+\makeslide{Virginia__None__51683}
+\makeslide{Virginia__None__51685}
+\makeslide{Virginia__None__51700}
+\makeslide{Virginia__None__51710}
+\makeslide{Virginia__None__51730}
+\makeslide{Virginia__None__51740}
+\makeslide{Virginia__None__51760}
+\makeslide{Virginia__None__51770}
+\makeslide{Virginia__None__51800}
+\makeslide{Virginia__None__51810}
+\makeslide{Virginia__None__51840}
+\makeslide{Virginia__Northampton County__51131}
+\makeslide{Virginia__Orange County__51137}
+\makeslide{Virginia__Page County__51139}
+\makeslide{Virginia__Prince Edward County__51147}
+\makeslide{Virginia__Prince George County__51149}
+\makeslide{Virginia__Prince William County__51153}
+\makeslide{Virginia__Richmond County__51159}
+\makeslide{Virginia__Roanoke County__51161}
+\makeslide{Virginia__Rockingham County__51165}
+\makeslide{Virginia__Shenandoah County__51171}
+\makeslide{Virginia__Southampton County__51175}
+\makeslide{Virginia__Spotsylvania County__51177}
+\makeslide{Virginia__Stafford County__51179}
+\makeslide{Virginia__Sussex County__51183}
+\makeslide{Virginia__Warren County__51187}
+\makeslide{Virginia__Washington County__51191}
+\makeslide{Virginia__Westmoreland County__51193}
+\makeslide{Virginia__York County__51199}
+\makeslide{Washington__Adams County__53001}
+\makeslide{Washington__Benton County__53005}
+\makeslide{Washington__Chelan County__53007}
+\makeslide{Washington__Clark County__53011}
+\makeslide{Washington__Cowlitz County__53015}
+\makeslide{Washington__Douglas County__53017}
+\makeslide{Washington__Franklin County__53021}
+\makeslide{Washington__Grant County__53025}
+\makeslide{Washington__Island County__53029}
+\makeslide{Washington__King County__53033}
+\makeslide{Washington__Kitsap County__53035}
+\makeslide{Washington__Kittitas County__53037}
+\makeslide{Washington__Pierce County__53053}
+\makeslide{Washington__Skagit County__53057}
+\makeslide{Washington__Snohomish County__53061}
+\makeslide{Washington__Spokane County__53063}
+\makeslide{Washington__Thurston County__53067}
+\makeslide{Washington__Walla Walla County__53071}
+\makeslide{Washington__Whatcom County__53073}
+\makeslide{Washington__Yakima County__53077}
+\makeslide{West Virginia__Berkeley County__54003}
+\makeslide{West Virginia__Cabell County__54011}
+\makeslide{West Virginia__Jackson County__54035}
+\makeslide{West Virginia__Jefferson County__54037}
+\makeslide{West Virginia__Kanawha County__54039}
+\makeslide{West Virginia__Marion County__54049}
+\makeslide{West Virginia__Monongalia County__54061}
+\makeslide{West Virginia__Ohio County__54069}
+\makeslide{West Virginia__Randolph County__54083}
+\makeslide{West Virginia__Wayne County__54099}
+\makeslide{West Virginia__Wood County__54107}
+\makeslide{Wisconsin__Brown County__55009}
+\makeslide{Wisconsin__Calumet County__55015}
+\makeslide{Wisconsin__Chippewa County__55017}
+\makeslide{Wisconsin__Dane County__55025}
+\makeslide{Wisconsin__Dodge County__55027}
+\makeslide{Wisconsin__Eau Claire County__55035}
+\makeslide{Wisconsin__Fond du Lac County__55039}
+\makeslide{Wisconsin__Grant County__55043}
+\makeslide{Wisconsin__Green County__55045}
+\makeslide{Wisconsin__Jefferson County__55055}
+\makeslide{Wisconsin__Kenosha County__55059}
+\makeslide{Wisconsin__La Crosse County__55063}
+\makeslide{Wisconsin__Milwaukee County__55079}
+\makeslide{Wisconsin__Outagamie County__55087}
+\makeslide{Wisconsin__Ozaukee County__55089}
+\makeslide{Wisconsin__Racine County__55101}
+\makeslide{Wisconsin__Rock County__55105}
+\makeslide{Wisconsin__Sauk County__55111}
+\makeslide{Wisconsin__Sheboygan County__55117}
+\makeslide{Wisconsin__St. Croix County__55109}
+\makeslide{Wisconsin__Walworth County__55127}
+\makeslide{Wisconsin__Washington County__55131}
+\makeslide{Wisconsin__Waukesha County__55133}
+\makeslide{Wisconsin__Winnebago County__55139}
+\makeslide{Wyoming__Fremont County__56013}
+\makeslide{Wyoming__Laramie County__56021}
+\makeslide{Wyoming__Natrona County__56025}
+\makeslide{Wyoming__Teton County__56039}
